@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    @;{ The at-exp reader for a template treats this as a comment.
+        Also, notice the use template variables like @title,
+        @description etc. }
+    <meta charset="utf-8">
+    <title>@|title|</title>
+    <meta name="description" content="@|description|">
+    <meta name="author"      content="@|author|">
+    <meta name="keywords"    content="@|keywords|">
+    <meta name="viewport"    content="width=device-width, initial-scale=1.0">
+    <link rel="icon"      href="@|uri-prefix|/favicon.ico">
+    <link rel="canonical" href="@|full-uri|">
+    @(when rel-next @list{<link rel="next" href="@|rel-next|">})
+    @(when rel-prev @list{<link rel="prev" href="@|rel-prev|">})
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="@|uri-prefix|/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="@|uri-prefix|/css/pygments.css">
+    <link rel="stylesheet" type="text/css" href="@|uri-prefix|/css/scribble.css">
+    <link rel="stylesheet" type="text/css" href="@|uri-prefix|/css/custom.css">
+    <!-- Feeds -->
+    <link rel="alternate" type="application/atom+xml"
+          href="@|atom-feed-uri|" title="Atom Feed">
+    <link rel="alternate" type="application/rss+xml"
+          href="@|rss-feed-uri|" title="RSS Feed">
+    <!-- JS -->
+    @google-universal-analytics["UA-xxxxx"]
+  </head>
+  <body>
+
+    <!-- A standard Twitter Bootstrap nav bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container">
+
+      <a href="@|uri-prefix|/index.html" class="navbar-brand">My Blog Brand</a>
+
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+              data-target="#navbar_collapse" aria-controls="navbar_collapse"
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar_collapse">
+          <ul class="navbar-nav mr-auto">
+            @;{ We can define Racket functions to "DRY". Here's one to
+                emit HMTL for a nav item, adding class="active" iff
+                this page's @|uri-path| is the same as the nav link. }
+
+            @(define (ni uri label [a-attribs ""])
+              @list{
+                <li@(when (string-ci=? uri uri-path) " class=\"active\"")>
+                  <a class="nav-link" href="@|uri|"@|a-attribs|>@|label|</a>
+                </li> })
+
+
+            @;{ Here we craft the dropdown links from a list of pairs.
+                The pairs are in the format '((name . url) ...) }
+
+            @(define (craft-tag-links listof-pairs)
+              @(map (lambda (pair)
+                @list{<a class="dropdown-item" href="@(cdr pair)">@(car pair)</a>})
+              listof-pairs))
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                Tags <b class="caret"></b>
+              </a>
+
+              <div class="dropdown-menu">
+                @craft-tag-links[(all-tag-pairs)]
+              </div>
+            </li>
+
+            @ni[(string-append uri-prefix "/About.html") "About"]
+
+            <li class="nav-item">
+              <a class="nav-link" href="@|atom-feed-uri|">Atom</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="@|rss-feed-uri|">RSS</a>
+            </li>
+          </ul>
+      </div>
+
+      </div>
+    </nav>
+
+
+    <div class="container">
+      <div class="row">
+        @;{ Remember that Twitter Bootstrap has a 12 cell model. The
+            col-md-N classes should add up to 12.  For instance 3
+            "col-md-4" divs, or 2 "col-md-6" divs. }
+        <!-- Main column -->
+        <div id="content" class="col-md-12">
+          @;{ To put something only on the home page, check for
+              @uri-path being "/index.html" }
+          @(when (string-ci=? uri-path
+                              (string-append uri-prefix
+                                             "/index.html"))
+            @list{
+              <h1>Welcome</h1>
+              <p>Here is some text that only goes on the home page,
+                because <code>@"@"uri-path</code> is
+                <code>/index.html</code>.</p> })
+          @;{ Index pages for posts have @tag that's not #f }
+          @(when tag
+            @list{<h1>Posts tagged <em>@|tag|</em></h1>})
+          @;{ The main page contents are in @contents }
+          @|contents|
+        </div>
+      </div>
+      <footer>
+        <hr />
+        <p>@twitter-follow-button["racketlang" "Follow RacketLang"]</p>
+        <p>Site generated
+        by <a href="https://github.com/greghendershott/frog">Frog</a>,
+        the <strong>fr</strong>ozen bl<strong>og</strong> tool.</p>
+        <p>Using <a href="http://twitter.github.com/bootstrap/index.html">Bootstrap</a>.</p>
+        <p><em>Your legal notice here</em>.</p>
+      </footer>
+    </div>
+    <!-- </body> JS -->
+    <script type="text/javascript" src="@|uri-prefix|/js/jquery-3.2.1.slim.min.js"></script>
+    <script type="text/javascript" src="@|uri-prefix|/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
