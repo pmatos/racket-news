@@ -1,8 +1,8 @@
-#lang scribble/article
+#lang scribble/manual
 
 @title{Racket News - Issue 1}
 
-@italics{Web version: @hyperlink[""]{}}
+@italic{Web version: @hyperlink["https://racket-news.com/issue1.html"]{https://racket-news.com/issue1.html}}
 
 Date: 2019/02/01
 
@@ -40,7 +40,7 @@ Stephen de Gabrielle has beautified the @hyperlink["https://github.com/topics/ra
 
 @itemlist[
 	@item{@hyperlink["https://fosdem.org/2019/"]{FOSDEM2019} - On Feb. 2,3 in Brussels, Belgium FOSDEM will take place. There is a @hyperlink["https://fosdem.org/2019/schedule/track/minimalistic_languages/"]{minimalistic languages interest group} where Racket will be mentioned @hyperlink["https://fosdem.org/2019/schedule/event/guileracket/"]{a} @hyperlink["https://fosdem.org/2019/schedule/event/fractalideandcantor/"]{few} @hyperlink["https://fosdem.org/2019/schedule/event/makeownlangracket/"]{times}}
-	@item{@hyperlink["http://bobkonf.de/2019/"]{BOB2019} - Right before Racketfest, also in Berlin, Germany. Directly related to Racket, you a talk by our own @hyperlink["https://bobkonf.de/2019/krishnamurthi.html"]{Shriram Krishnamurthi} and a tutorial by @hyperlink["https://bobkonf.de/2019/alama.html"]{Jesse Alama on WebDev}.
+	@item{@hyperlink["http://bobkonf.de/2019/"]{BOB2019} - Right before Racketfest, also in Berlin, Germany. Directly related to Racket, you a talk by our own @hyperlink["https://bobkonf.de/2019/krishnamurthi.html"]{Shriram Krishnamurthi} and a tutorial by @hyperlink["https://bobkonf.de/2019/alama.html"]{Jesse Alama on WebDev}}
 	@item{@hyperlink["https://racketfest.com/"]{RacketFest} - Jesse Alama is organizing the first European Racket Meeting. It will take place in Berlin, Germany on March 23, 2019. Make sure you get your ticket before they sell out... again!}
 ]
 
