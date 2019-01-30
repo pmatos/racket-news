@@ -28,6 +28,10 @@ There are a few other incompatible points but for more detail please refer to th
 
 However, there are some performance issues that might block a few applications from transitioning right away. Alex Harsanyi, developer of @hyperlink["https://github.com/alex-hhh/ActivityLog2"]{ActivityLog2} @hyperlink["https://groups.google.com/d/msg/racket-users/JryxllMvh94/BjFR01wHFgAJ"]{mentioned in the mailing list} that in his case RacketCS is significantly slower than Racket 7.1. Matthew @italic{promised} in @hyperlink["https://groups.google.com/d/msg/racket-users/JryxllMvh94/AWlIwR3aCwAJ"]{a reply} no switch will happen until performance is good enough.
 
+@subsection{Racket 7.2 released}
+
+Racket 7.2 has been released! Vincent St-Amour has @hyperlink["https://groups.google.com/d/msg/racket-users/3tL7sFlQ_lo/xPtOEKjPEwAJ"]{announced the release} on January 30, 2019. The listed improvements include collapsible contracts, QuickScript integration, and various improvements to @hyperlink["https://docs.racket-lang.org/racklog/index.html"]{racklog}, among others.
+
 @subsection{Wiki}
 
 Stephen de Gabrielle has been @hyperlink["https://github.com/racket/racket/wiki/Home/_history"]{seriously active} on the @hyperlink["https://github.com/racket/racket/wiki"]{wiki} side of things. It has some really interesting content and you should check it out.
