@@ -12,6 +12,10 @@ Also, I think at the moment a bi-weekly or monthly newsletter is something reaso
 
 @section{What's New?}
 
+@subsection{Racket 7.2 released}
+
+Racket 7.2 has been released! Vincent St-Amour has @hyperlink["https://groups.google.com/d/msg/racket-users/3tL7sFlQ_lo/xPtOEKjPEwAJ"]{announced the release} on January 30, 2019. The listed improvements include collapsible contracts, QuickScript integration, and various improvements to @hyperlink["https://docs.racket-lang.org/racklog/index.html"]{racklog}, among others.
+
 @subsection{RacketCS}
 
 This week we saw an @hyperlink["http://blog.racket-lang.org/2019/01/racket-on-chez-status.html"]{update on Racket-On-Chez} by Matthew Flatt. For those who missed the boat, the whole point of this transition is maintainability. Hopefully with a more maintainable system, things will get easier for those currently contributing to Racket but also newcomers to Racket might more easily contribute PRs to improve the system in general.
@@ -27,10 +31,6 @@ The summary on the report is that Racket on Chez is considered mostly done with 
 There are a few other incompatible points but for more detail please refer to the original post. RacketCS will never be fully compatible with Racket, therefore he whole point is to get people to move their stuff to RacketCS and get rid of the current Racket variant.
 
 However, there are some performance issues that might block a few applications from transitioning right away. Alex Harsanyi, developer of @hyperlink["https://github.com/alex-hhh/ActivityLog2"]{ActivityLog2} @hyperlink["https://groups.google.com/d/msg/racket-users/JryxllMvh94/BjFR01wHFgAJ"]{mentioned in the mailing list} that in his case RacketCS is significantly slower than Racket 7.1. Matthew @italic{promised} in @hyperlink["https://groups.google.com/d/msg/racket-users/JryxllMvh94/AWlIwR3aCwAJ"]{a reply} no switch will happen until performance is good enough.
-
-@subsection{Racket 7.2 released}
-
-Racket 7.2 has been released! Vincent St-Amour has @hyperlink["https://groups.google.com/d/msg/racket-users/3tL7sFlQ_lo/xPtOEKjPEwAJ"]{announced the release} on January 30, 2019. The listed improvements include collapsible contracts, QuickScript integration, and various improvements to @hyperlink["https://docs.racket-lang.org/racklog/index.html"]{racklog}, among others.
 
 @subsection{Wiki}
 
