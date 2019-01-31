@@ -9,13 +9,13 @@ Also, I think at the moment a bi-weekly or monthly newsletter is something reaso
 
 In this issue we have the Racket 7.2 release, update on RacketCS, and a few extra goodies that came out recently.
 
-@section{What's New?}
+@section[#:style 'unnumbered]{What's New?}
 
-@subsection{Racket 7.2 released}
+@subsection[#:style 'unnumbered]{Racket 7.2 released}
 
 Racket 7.2 has been released! Vincent St-Amour has @hyperlink["https://groups.google.com/d/msg/racket-users/3tL7sFlQ_lo/xPtOEKjPEwAJ"]{announced the release} on January 30, 2019. The listed improvements include collapsible contracts, QuickScript integration, and various improvements to @hyperlink["https://docs.racket-lang.org/racklog/index.html"]{racklog}, among others.
 
-@subsection{RacketCS}
+@subsection[#:style 'unnumbered]{RacketCS}
 
 This week we saw an @hyperlink["http://blog.racket-lang.org/2019/01/racket-on-chez-status.html"]{update on Racket-On-Chez} by Matthew Flatt. For those who missed the boat, the whole point of this transition is maintainability. Hopefully with a more maintainable system, things will get easier for those currently contributing to Racket but also newcomers to Racket might more easily contribute PRs to improve the system in general.
 
@@ -31,15 +31,15 @@ There are a few other incompatible points but for more detail please refer to th
 
 However, there are some performance issues that might block a few applications from transitioning right away. Alex Harsanyi, developer of @hyperlink["https://github.com/alex-hhh/ActivityLog2"]{ActivityLog2} @hyperlink["https://groups.google.com/d/msg/racket-users/JryxllMvh94/BjFR01wHFgAJ"]{mentioned in the mailing list} that in his case RacketCS is significantly slower than Racket 7.1. Matthew @italic{promised} in @hyperlink["https://groups.google.com/d/msg/racket-users/JryxllMvh94/AWlIwR3aCwAJ"]{a reply} no switch will happen until performance is good enough.
 
-@subsection{Wiki}
+@subsection[#:style 'unnumbered]{Wiki}
 
 Stephen de Gabrielle has been @hyperlink["https://github.com/racket/racket/wiki/Home/_history"]{seriously active} on the @hyperlink["https://github.com/racket/racket/wiki"]{wiki} side of things. It has some really interesting content and you should check it out.
 
-@subsection{Racket Github Topic}
+@subsection[#:style 'unnumbered]{Racket Github Topic}
 
 Stephen de Gabrielle has beautified the @hyperlink["https://github.com/topics/racket"]{GitHub topic for Racket} through a @hyperlink["https://github.com/github/explore/pull/522"]{PR}.
 
-@section{Upcoming Meetups}
+@section[#:style 'unnumbered]{Upcoming Meetups}
 
 @itemlist[
 	@item{@hyperlink["https://fosdem.org/2019/"]{FOSDEM2019} - On Feb. 2,3 in Brussels, Belgium FOSDEM will take place. There is a @hyperlink["https://fosdem.org/2019/schedule/track/minimalistic_languages/"]{minimalistic languages interest group} where Racket will be mentioned @hyperlink["https://fosdem.org/2019/schedule/event/guileracket/"]{a} @hyperlink["https://fosdem.org/2019/schedule/event/fractalideandcantor/"]{few} @hyperlink["https://fosdem.org/2019/schedule/event/makeownlangracket/"]{times}}
@@ -47,7 +47,7 @@ Stephen de Gabrielle has beautified the @hyperlink["https://github.com/topics/ra
 	@item{@hyperlink["https://racketfest.com/"]{RacketFest} - Jesse Alama is organizing the first European Racket Meeting. It will take place in Berlin, Germany on March 23, 2019. Make sure you get your ticket before they sell out... again!}
 ]
 
-@section{Racket around the web}
+@section[#:style 'unnumbered]{Racket around the web}
 
 Here are a few blog posts about Racket...
 @itemlist[
@@ -55,7 +55,7 @@ Here are a few blog posts about Racket...
 	@item{@hyperlink["https://kilotau.com/2019/01/15/can-we-abstract-control-flow.html"]{Can we abstract control flow?}}
 ]
 
-@section{Project of the Week}
+@section[#:style 'unnumbered]{Project of the Week}
 
 We all know how there are so many hidden gems in the Racket world. I hope, in this section, to make these gems shine, one at a time.
 
@@ -72,14 +72,15 @@ Rash is in active development, but it is largely stable (and the parts that aren
 
 I have used it on a regular basis to easily access the shell from Racket and it is brilliant. Check it out!
 
-@section{Help Needed}
+@section[#:style 'unnumbered]{Help Needed}
 
 Do you know a project looking for contributors? I would love to hear about it.
 
 @itemlist[
 @item{@hyperlink["https://racket-news.com"]{Racket News}: Besides the obvious, @italic{What would you like to see next?} I could use a hand to design some sort of logo and maybe make suggestions with regards to the website design. Using Frog with the Clean blog bootstrap4 theme but I am definitely way out of my league as soon as I need to do any CSS or @italic{design}.}
+]
 
-@section{Stats of mention}
+@section[#:style 'unnumbered]{Stats of mention}
 
 Here is some data from the development of @hyperlink["https://github.com/racket/racket"]{Racket} for the month of January, 2019.
 
@@ -108,11 +109,11 @@ Contributions by:
 @item{@tt{winny-}}
 ]
 
-@section{Jobs}
+@section[#:style 'unnumbered]{Jobs}
 
 If you want to advertise any Racket related jobs, please @hyperlink["mailto:pmatos@linki.tools"]{send me an email} or @hyperlink["https://github.com/racket-news/racket-news.github.io-src/pulls"]{submit a PR}.
 
-@section{Disclaimer}
+@section[#:style 'unnumbered]{Disclaimer}
 
 This issue is brought to you by @hyperlink["mailto:pmatos@linki.tools"]{Paulo Matos}. Any mistakes or inaccuracies are solely mine and
 they do not represent the views of the @hyperlink["http://www.racket-lang.org/team.html"]{PLT team}, who develop Racket.
