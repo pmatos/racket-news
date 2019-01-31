@@ -1,6 +1,6 @@
 #lang scribble/manual
 
-Title: issue-2
+Title: Racket News - Issue 2
 Date: 2019-01-31T08:16:25
 Tags: DRAFT
 
