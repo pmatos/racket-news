@@ -68,7 +68,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="@|uri-prefix|/index.html">Home</a>
             </li>
             <!-- <li class="nav-item"> -->
             <!--   <a class="nav-link" href="about.html">About</a> -->
@@ -103,6 +103,10 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
+	  @(when (string-ci=? uri-path (string-append uri-prefix "/index.html"))
+	  @list{
+	  <h1>Issues:</h1>
+	  })
 	  @|contents|
           <hr>
           <!-- Pager -->

@@ -1,12 +1,5 @@
 <article>
   <header>
-    <h2><a href='@|uri-path|'>@|title|</a></h2>
-    <p class='date-and-tags'>@|date| :: @|tags|</p>
-    <p class='authors'>By: @|authors|</p>
+    <h2><a href='@|uri-path|'>@|title|</a></h2> - @|date|
   </header>
-  @|content-only|
-    @(when more?
-    @list{<footer>
-            <a href='@|uri-path|'>&hellip; more &hellip;</a>
-  </footer>})
 </article>
