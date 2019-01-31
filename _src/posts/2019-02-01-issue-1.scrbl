@@ -72,6 +72,13 @@ Rash is in active development, but it is largely stable (and the parts that aren
 
 I have used it on a regular basis to easily access the shell from Racket and it is brilliant. Check it out!
 
+@section{Help Needed}
+
+Do you know a project looking for contributors? I would love to hear about it.
+
+@itemlist[
+@item{@hyperlink["https://racket-news.com"]{Racket News}: Besides the obvious, @italic{What would you like to see next?} I could use a hand to design some sort of logo and maybe make suggestions with regards to the website design. Using Frog with the Clean blog bootstrap4 theme but I am definitely way out of my league as soon as I need to do any CSS or @italic{design}.}
+
 @section{Stats of mention}
 
 Here is some data from the development of @hyperlink["https://github.com/racket/racket"]{Racket} for the month of January, 2019.
