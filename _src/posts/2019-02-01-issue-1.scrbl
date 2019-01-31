@@ -3,21 +3,13 @@
 Title: Racket News - Issue 1
 Date: 2019-01-31T08:16:22
 
-Replace this with your post text. Add one or more comma-separated
-Tags above. The special tag `DRAFT` will prevent the post from being
-published.
-
-Welcome to the first issue of @hyperlink["http://www.racket-lang.org/"]{Racket} News. I am hoping this will be of interest to everyone in the Racket community so if there's something you really dislike, or something you want to see added to the newsletter please @hyperlink["mailto:pmatos@linki.tools"]{send me an email} or @hyperlink["https://github.com/racket-news/racket-news.github.io-src/pulls"]{submit a PR}.
-
-Also, I think at the moment a bi-weekly or monthly newsletter is something reasonable. By this I mean that I should have time to put it together at this regular interval with enough interesting content. If things happen differently when I will change how often it comes out.
-
 In this issue we have the Racket 7.2 release, update on RacketCS, and a few extra goodies that came out recently.
 
 <!-- more -->
 
-@italic{Web version: @hyperlink["https://racket-news.com/issue1.html"]{https://racket-news.com/issue1.html}}
+Welcome to the first issue of @hyperlink["http://www.racket-lang.org/"]{Racket} News. I am hoping this will be of interest to everyone in the Racket community so if there's something you really dislike, or something you want to see added to the newsletter please @hyperlink["mailto:pmatos@linki.tools"]{send me an email} or @hyperlink["https://github.com/racket-news/racket-news.github.io-src/pulls"]{submit a PR}.
 
-Date: 2019/02/01
+Also, I think at the moment a bi-weekly or monthly newsletter is something reasonable. By this I mean that I should have time to put it together at this regular interval with enough interesting content. If things happen differently when I will change how often it comes out.
 
 @section{What's New?}
 
