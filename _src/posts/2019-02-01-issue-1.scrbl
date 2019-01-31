@@ -84,7 +84,8 @@ Do you know a project looking for contributors? I would love to hear about it.
 
 Here is some data from the development of @hyperlink["https://github.com/racket/racket"]{Racket} for the month of January, 2019.
 
-Number of master Commits
+@; git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ci) %C(bold blue)|%an%Creset' --abbrev-commit --date=short --since='2019-01-01' | wc -l
+Number of master Commits 129
 Number of Opened PRs
 Number of Opened Bugs
 Number of Closed Bugs
@@ -92,21 +93,22 @@ Number of Closed Bugs
 Bugs open
 PRs open
 
-Contributions by:
+@; git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ci) %C(bold blue)|%an%Creset' --abbrev-commit --date=short --since='2019-01-01' | cut -d '|' -f 2 | sort -u | uniq
+
+Contributions by (12):
 @itemlist[
-@item{@tt{dharmatech}}
-@item{Ryan Culpepper}
-@item{Robby Findler}
-@item{Matthew Flatt}
-@item{Spencer Florence}
 @item{Ben Greenman}
+@item{@tt{dharmatech}}
 @item{Greg Hendershott}
 @item{Gustavo Massaccesi}
 @item{Jay McCarthy}
+@item{Matthew Flatt}
+@item{Robby Findler}
 @item{@tt{rxg}}
+@item{Ryan Culpepper}
+@item{Spencer Florence}
 @item{Vincent St-Amour}
-@item{Sam Tobin-Hochstadt}
-@item{@tt{winny-}}
+@item{Winny}
 ]
 
 @section[#:style 'unnumbered]{Jobs}
