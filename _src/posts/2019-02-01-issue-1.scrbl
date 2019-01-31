@@ -29,7 +29,7 @@ The summary on the report is that Racket on Chez is considered mostly done with 
 
 There are a few other incompatible points but for more detail please refer to the original post. RacketCS will never be fully compatible with Racket, therefore he whole point is to get people to move their stuff to RacketCS and get rid of the current Racket variant.
 
-However, there are some performance issues that might block a few applications from transitioning right away. Alex Harsanyi, developer of @hyperlink["https://github.com/alex-hhh/ActivityLog2"]{ActivityLog2} @hyperlink["https://groups.google.com/d/msg/racket-users/JryxllMvh94/BjFR01wHFgAJ"]{mentioned in the mailing list} that in his case RacketCS is significantly slower than Racket 7.1. Matthew @italic{promised} in @hyperlink["https://groups.google.com/d/msg/racket-users/JryxllMvh94/AWlIwR3aCwAJ"]{a reply} no switch will happen until performance is good enough.
+However, there are some performance issues that might block a few applications from transitioning right away. Alex Harsanyi, developer of @hyperlink["https://github.com/alex-hhh/ActivityLog2"]{ActivityLog2} @hyperlink["https://groups.google.com/d/msg/racket-users/JryxllMvh94/BjFR01wHFgAJ"]{mentioned in the mailing list} that in his case RacketCS is significantly slower than Racket 7.1. Matthew @italic{promised} in @hyperlink["https://groups.google.com/d/msg/racket-users/JryxllMvh94/AWlIwR3aCwAJ"]{a reply} no switch will happen until performance is good enough. Alex elaborated his point further by providing function timings of @hyperlink["https://github.com/alex-hhh/ActivityLog2"]{ActivityLog2} @hyperlink["https://gist.github.com/alex-hhh/1ebc1c83b68ee4620a70fc30d2caa6a3"]{in this gist}.
 
 @subsection[#:style 'unnumbered]{Wiki}
 
