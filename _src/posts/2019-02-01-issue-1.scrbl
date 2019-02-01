@@ -1,7 +1,7 @@
 #lang scribble/manual
 
 Title: Racket News - Issue 1
-Date: 2019-02-01
+Date: 2019-02-01T08:00:00
 
 Welcome to the first issue of @hyperlink["http://www.racket-lang.org/"]{Racket} News. I am hoping this will be of interest to everyone in the Racket community so if there's something you really dislike, or something you want to see added to the newsletter please @hyperlink["mailto:pmatos@linki.tools"]{send me an email} or @hyperlink["https://github.com/racket-news/racket-news.github.io-src/pulls"]{submit a PR}.
 
