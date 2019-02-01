@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<rss version="2.0">
+ <channel>
+  <title>Racket News: Racket News</title>
+  <description>Racket News: Racket News</description>
+  <link>http://racket-news.com/index.html</link>
+  <lastBuildDate>Thu, 31 Jan 2019 07:16:22 UT</lastBuildDate>
+  <pubDate>Thu, 31 Jan 2019 07:16:22 UT</pubDate>
+  <ttl>1800</ttl>
+  <item>
+   <title>Racket News - Issue 1</title>
+   <link>http://racket-news.com/2019/01/racket-news-issue-1.html?utm_source=all&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:http-racket-news-com:-2019-01-racket-news-issue-1-html</guid>
+   <pubDate>Thu, 31 Jan 2019 07:16:22 UT</pubDate>
+   <author>Paulo Matos</author>
+   <description>
+&lt;p&gt;Welcome to the first issue of &lt;a href="http://www.racket-lang.org/"&gt;Racket&lt;/a&gt; News. I am hoping this will be of interest to everyone in the Racket community so if there&amp;rsquo;s something you really dislike, or something you want to see added to the newsletter please &lt;a href="mailto:pmatos@linki.tools"&gt;send me an email&lt;/a&gt; or &lt;a href="https://github.com/racket-news/racket-news.github.io-src/pulls"&gt;submit a PR&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Also, I think at the moment a bi-weekly or monthly newsletter is something reasonable. By this I mean that I should have time to put it together at this regular interval with enough interesting content. If things happen differently when I will change how often it comes out.&lt;/p&gt;
+
+&lt;p&gt;In this issue we have the Racket 7.2 release, update on RacketCS, and a few extra goodies that came out recently.&lt;/p&gt;
+
+&lt;h1&gt;&lt;a name="(part._.What_s_.New_)"&gt;&lt;/a&gt;What&amp;rsquo;s New?&lt;/h1&gt;
+
+&lt;h2&gt;&lt;a name="(part._.Racket_7_2_released)"&gt;&lt;/a&gt;Racket 7.2 released&lt;/h2&gt;
+
+&lt;p&gt;Racket 7.2 has been released! Vincent St-Amour has &lt;a href="https://groups.google.com/d/msg/racket-users/3tL7sFlQ_lo/xPtOEKjPEwAJ"&gt;announced the release&lt;/a&gt; on January 30, 2019. The listed improvements include collapsible contracts, QuickScript integration, and various improvements to &lt;a href="https://docs.racket-lang.org/racklog/index.html"&gt;racklog&lt;/a&gt;, among others.&lt;/p&gt;
+
+&lt;h2&gt;&lt;a name="(part._.Racket.C.S)"&gt;&lt;/a&gt;RacketCS&lt;/h2&gt;
+
+&lt;p&gt;This week we saw an &lt;a href="http://blog.racket-lang.org/2019/01/racket-on-chez-status.html"&gt;update on Racket-On-Chez&lt;/a&gt; by Matthew Flatt. For those who missed the boat, the whole point of this transition is maintainability. Hopefully with a more maintainable system, things will get easier for those currently contributing to Racket but also newcomers to Racket might more easily contribute PRs to improve the system in general.&lt;/p&gt;
+
+&lt;p&gt;The summary on the report is that Racket on Chez is considered mostly done with all functionility in place and most tests passing. There are a few things where RacketCS won&amp;rsquo;t behave the same as current Racket:&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;
+  &lt;p&gt;no single-precision or extended-precision flonums;&lt;/p&gt;&lt;/li&gt;
+ &lt;li&gt;
+  &lt;p&gt;some differences in the FFI;&lt;/p&gt;&lt;/li&gt;
+ &lt;li&gt;
+  &lt;p&gt;no support for C API;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;There are a few other incompatible points but for more detail please refer to the original post. RacketCS will never be fully compatible with Racket, therefore he whole point is to get people to move their stuff to RacketCS and get rid of the current Racket variant.&lt;/p&gt;
+
+&lt;p&gt;However, there are some performance issues that might block a few applications from transitioning right away. Alex Harsanyi, developer of &lt;a href="https://github.com/alex-hhh/ActivityLog2"&gt;ActivityLog2&lt;/a&gt; &lt;a href="https://groups.google.com/d/msg/racket-users/JryxllMvh94/BjFR01wHFgAJ"&gt;mentioned in the mailing list&lt;/a&gt; that in his case RacketCS is significantly slower than Racket 7.1. Matthew &lt;span style="font-style: italic"&gt;promised&lt;/span&gt; in &lt;a href="https://groups.google.com/d/msg/racket-users/JryxllMvh94/AWlIwR3aCwAJ"&gt;a reply&lt;/a&gt; no switch will happen until performance is good enough. Alex elaborated his point further by providing function timings of &lt;a href="https://github.com/alex-hhh/ActivityLog2"&gt;ActivityLog2&lt;/a&gt; &lt;a href="https://gist.github.com/alex-hhh/1ebc1c83b68ee4620a70fc30d2caa6a3"&gt;in this gist&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;&lt;a name="(part._.Wiki)"&gt;&lt;/a&gt;Wiki&lt;/h2&gt;
+
+&lt;p&gt;Stephen de Gabrielle has been &lt;a href="https://github.com/racket/racket/wiki/Home/_history"&gt;seriously active&lt;/a&gt; on the &lt;a href="https://github.com/racket/racket/wiki"&gt;wiki&lt;/a&gt; side of things. It has some really interesting content and you should check it out.&lt;/p&gt;
+
+&lt;h2&gt;&lt;a name="(part._.Racket_.Github_.Topic)"&gt;&lt;/a&gt;Racket Github Topic&lt;/h2&gt;
+
+&lt;p&gt;Stephen de Gabrielle has beautified the &lt;a href="https://github.com/topics/racket"&gt;GitHub topic for Racket&lt;/a&gt; through a &lt;a href="https://github.com/github/explore/pull/522"&gt;PR&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1&gt;&lt;a name="(part._.Upcoming_.Meetups)"&gt;&lt;/a&gt;Upcoming Meetups&lt;/h1&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;
+  &lt;p&gt;&lt;a href="https://fosdem.org/2019/"&gt;FOSDEM2019&lt;/a&gt; - On Feb. 2,3 in Brussels, Belgium FOSDEM will take place. There is a &lt;a href="https://fosdem.org/2019/schedule/track/minimalistic_languages/"&gt;minimalistic languages interest group&lt;/a&gt; where Racket will be mentioned &lt;a href="https://fosdem.org/2019/schedule/event/guileracket/"&gt;a&lt;/a&gt; &lt;a href="https://fosdem.org/2019/schedule/event/fractalideandcantor/"&gt;few&lt;/a&gt; &lt;a href="https://fosdem.org/2019/schedule/event/makeownlangracket/"&gt;times&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+ &lt;li&gt;
+  &lt;p&gt;&lt;a href="http://bobkonf.de/2019/"&gt;BOB2019&lt;/a&gt; - Right before Racketfest, also in Berlin, Germany. Directly related to Racket, you a talk by our own &lt;a href="https://bobkonf.de/2019/krishnamurthi.html"&gt;Shriram Krishnamurthi&lt;/a&gt; and a tutorial by &lt;a href="https://bobkonf.de/2019/alama.html"&gt;Jesse Alama on WebDev&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+ &lt;li&gt;
+  &lt;p&gt;&lt;a href="https://racketfest.com/"&gt;RacketFest&lt;/a&gt; - Jesse Alama is organizing the first European Racket Meeting. It will take place in Berlin, Germany on March 23, 2019. Make sure you get your ticket before they sell out... again!&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h1&gt;&lt;a name="(part._.Racket_around_the_web)"&gt;&lt;/a&gt;Racket around the web&lt;/h1&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;div class="SIntrapara"&gt;Here are a few blog posts about Racket...
+&lt;/div&gt;
+
+&lt;div class="SIntrapara"&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;&lt;a href="http://blog.racket-lang.org/2019/01/racket-on-chez-status.html"&gt;Racket-on-Chez Status: January 2019&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;&lt;a href="https://kilotau.com/2019/01/15/can-we-abstract-control-flow.html"&gt;Can we abstract control flow?&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+
+&lt;h1&gt;&lt;a name="(part._.Project_of_the_.Week)"&gt;&lt;/a&gt;Project of the Week&lt;/h1&gt;
+
+&lt;p&gt;We all know how there are so many hidden gems in the Racket world. I hope, in this section, to make these gems shine, one at a time.&lt;/p&gt;
+
+&lt;p&gt;So for this week I chose to mention: &lt;a href="https://github.com/willghatch/racket-rash"&gt;Rash&lt;/a&gt; by &lt;a href="william@hatch.uno"&gt;William Hatch&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;div class="SIntrapara"&gt;From its webpage:
+&lt;/div&gt;
+
+&lt;div class="SIntrapara"&gt;
+ &lt;table cellpadding="0" cellspacing="0"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;Rash is a shell language, library, and REPL for Racket.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;Use as a repl that is as convenient for pipelining programs as Bash is, but has all the power of Racket. Use as a scripting language with #lang rash. Embed in normal Racket files with (require rash), and mix freely with any other Racket language or library.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;&lt;/span&gt;&lt;span class="hspace"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td&gt;
+     &lt;p&gt;&lt;span class="stt"&gt;Rash is in active development, but it is largely stable (and the parts that aren't are marked as such). I use it as my default interactive shell on my laptop. It currently lacks the interactive polish of Zsh or Fish, but it is so much better as a language. Every script I've ported from a bourne-related shell to Rash is more robust, simpler, easier to maintain, easier to expand, and much more fun.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+
+&lt;p&gt;I have used it on a regular basis to easily access the shell from Racket and it is brilliant. Check it out!&lt;/p&gt;
+
+&lt;h1&gt;&lt;a name="(part._.Help_.Needed)"&gt;&lt;/a&gt;Help Needed&lt;/h1&gt;
+
+&lt;p&gt;Do you know a project looking for contributors? I would love to hear about it.&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;
+  &lt;p&gt;&lt;a href="https://racket-news.com"&gt;Racket News&lt;/a&gt;: Besides the obvious, &lt;span style="font-style: italic"&gt;What would you like to see next?&lt;/span&gt; I could use a hand to design some sort of logo and maybe make suggestions with regards to the website design. Using Frog with the Clean blog bootstrap4 theme but I am definitely way out of my league as soon as I need to do any CSS or &lt;span style="font-style: italic"&gt;design&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h1&gt;&lt;a name="(part._.Stats_of_mention)"&gt;&lt;/a&gt;Stats of mention&lt;/h1&gt;
+
+&lt;p&gt;Here is some data from the development of &lt;a href="https://github.com/racket/racket"&gt;Racket&lt;/a&gt; for the month of January, 2019.&lt;/p&gt;
+
+&lt;p&gt;Number of master Commits 129
+Number of Opened PRs
+Number of Opened Bugs
+Number of Closed Bugs&lt;/p&gt;
+
+&lt;p&gt;Bugs open
+PRs open&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;div class="SIntrapara"&gt;Contributions by (12):
+&lt;/div&gt;
+
+&lt;div class="SIntrapara"&gt;
+ &lt;ul&gt;
+  &lt;li&gt;
+   &lt;p&gt;Ben Greenman&lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;&lt;span class="stt"&gt;dharmatech&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;Greg Hendershott&lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;Gustavo Massaccesi&lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;Jay McCarthy&lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;Matthew Flatt&lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;Robby Findler&lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;&lt;span class="stt"&gt;rxg&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;Ryan Culpepper&lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;Spencer Florence&lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;Vincent St-Amour&lt;/p&gt;&lt;/li&gt;
+  &lt;li&gt;
+   &lt;p&gt;Winny&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+
+&lt;h1&gt;&lt;a name="(part._.Jobs)"&gt;&lt;/a&gt;Jobs&lt;/h1&gt;
+
+&lt;p&gt;If you want to advertise any Racket related jobs, please &lt;a href="mailto:pmatos@linki.tools"&gt;send me an email&lt;/a&gt; or &lt;a href="https://github.com/racket-news/racket-news.github.io-src/pulls"&gt;submit a PR&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1&gt;&lt;a name="(part._.Disclaimer)"&gt;&lt;/a&gt;Disclaimer&lt;/h1&gt;
+
+&lt;p&gt;This issue is brought to you by &lt;a href="mailto:pmatos@linki.tools"&gt;Paulo Matos&lt;/a&gt;. Any mistakes or inaccuracies are solely mine and
+they do not represent the views of the &lt;a href="http://www.racket-lang.org/team.html"&gt;PLT team&lt;/a&gt;, who develop Racket.&lt;/p&gt;
+
+&lt;p&gt;I have also tried to survey the most relevant things that happened in Racket-lan(g|d) recently. If you have done something awesome, wrote a blog post or seen something that I missed - my apologies. &lt;a href="mailto:pmatos@linki.tools"&gt;Let me know&lt;/a&gt; so I can rectify it in the next issue.&lt;/p&gt;</description></item></channel></rss>

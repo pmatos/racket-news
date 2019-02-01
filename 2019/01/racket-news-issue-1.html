@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport"    content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Welcome to the first issue of Racket News. I am hoping this will be of interest to everyone in the Racket community so if there's something you really dislike, or something you want to see added to the newsletter please send me an email or submit a PR.  A...">
+    <meta name="author"      content="Paulo Matos">
+    <meta name="keywords"    content="">
+
+    <title>Racket News - Issue 1</title>
+
+    <link rel="icon"      href="/favicon.ico">
+    <link rel="canonical" href="http://racket-news.com/2019/01/racket-news-issue-1.html">
+
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="/css/clean-blog.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/pygments.css">
+    <link rel="stylesheet" type="text/css" href="/css/scribble.css">
+    <link rel="stylesheet" type="text/css" href="/css/custom.css">
+
+    <!-- Feeds -->
+    <link rel="alternate" type="application/atom+xml"
+          href="/feeds/all.atom.xml" title="Atom Feed">
+    <link rel="alternate" type="application/rss+xml"
+          href="/feeds/all.rss.xml" title="RSS Feed">
+
+    <!-- Matomo -->
+    <script type="text/javascript">
+      var _paq = window._paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+      _paq.push(["setCookieDomain", "*.racket-news.com"]);
+      _paq.push(["setDomains", ["*.racket-news.com","*.racket-news.com"]]);
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+          var u="//analytics.linki.tools/";
+          _paq.push(['setTrackerUrl', u+'matomo.php']);
+          _paq.push(['setSiteId', '2']);
+          var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+          g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <noscript><p><img src="//analytics.linki.tools/matomo.php?idsite=2&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+    <!-- End Matomo Code -->
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <!-- <a class="navbar-brand" href="index.html">Issue Index</a> -->
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html">Home</a>
+            </li>
+            <!-- <li class="nav-item"> -->
+            <!--   <a class="nav-link" href="about.html">About</a> -->
+            <!-- </li> -->
+            <!-- <li class="nav-item"> -->
+            <!--   <a class="nav-link" href="post.html">Sample Post</a> -->
+            <!-- </li> -->
+            <!-- <li class="nav-item"> -->
+            <!--   <a class="nav-link" href="contact.html">Contact</a> -->
+            <!-- </li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('img/home-bg.jpg')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="site-heading">
+              <h1>Racket News - Issue 1</h1>
+              <!-- <span class="subheading">A Blog Theme by Start Bootstrap</span> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+
+          <article>
+  <header>
+    <p class='date-and-tags'>
+<time datetime="2019-01-31" pubdate="true">2019-01-31</time></p>
+  </header>
+  <small>Permalink: <a href="http://racket-news.com/2019/01/racket-news-issue-1.html">http://racket-news.com/2019/01/racket-news-issue-1.html</a></small>
+
+<p>Welcome to the first issue of <a href="http://www.racket-lang.org/">Racket</a> News. I am hoping this will be of interest to everyone in the Racket community so if there&rsquo;s something you really dislike, or something you want to see added to the newsletter please <a href="mailto:pmatos@linki.tools">send me an email</a> or <a href="https://github.com/racket-news/racket-news.github.io-src/pulls">submit a PR</a>.</p>
+
+<p>Also, I think at the moment a bi-weekly or monthly newsletter is something reasonable. By this I mean that I should have time to put it together at this regular interval with enough interesting content. If things happen differently when I will change how often it comes out.</p>
+
+<p>In this issue we have the Racket 7.2 release, update on RacketCS, and a few extra goodies that came out recently.</p>
+
+<h1><a name="(part._.What_s_.New_)"></a>What&rsquo;s New?</h1>
+
+<h2><a name="(part._.Racket_7_2_released)"></a>Racket 7.2 released</h2>
+
+<p>Racket 7.2 has been released! Vincent St-Amour has <a href="https://groups.google.com/d/msg/racket-users/3tL7sFlQ_lo/xPtOEKjPEwAJ">announced the release</a> on January 30, 2019. The listed improvements include collapsible contracts, QuickScript integration, and various improvements to <a href="https://docs.racket-lang.org/racklog/index.html">racklog</a>, among others.</p>
+
+<h2><a name="(part._.Racket.C.S)"></a>RacketCS</h2>
+
+<p>This week we saw an <a href="http://blog.racket-lang.org/2019/01/racket-on-chez-status.html">update on Racket-On-Chez</a> by Matthew Flatt. For those who missed the boat, the whole point of this transition is maintainability. Hopefully with a more maintainable system, things will get easier for those currently contributing to Racket but also newcomers to Racket might more easily contribute PRs to improve the system in general.</p>
+
+<p>The summary on the report is that Racket on Chez is considered mostly done with all functionility in place and most tests passing. There are a few things where RacketCS won&rsquo;t behave the same as current Racket:</p>
+
+<ul>
+ <li>
+  <p>no single-precision or extended-precision flonums;</p></li>
+ <li>
+  <p>some differences in the FFI;</p></li>
+ <li>
+  <p>no support for C API;</p></li></ul>
+
+<p>There are a few other incompatible points but for more detail please refer to the original post. RacketCS will never be fully compatible with Racket, therefore he whole point is to get people to move their stuff to RacketCS and get rid of the current Racket variant.</p>
+
+<p>However, there are some performance issues that might block a few applications from transitioning right away. Alex Harsanyi, developer of <a href="https://github.com/alex-hhh/ActivityLog2">ActivityLog2</a> <a href="https://groups.google.com/d/msg/racket-users/JryxllMvh94/BjFR01wHFgAJ">mentioned in the mailing list</a> that in his case RacketCS is significantly slower than Racket 7.1. Matthew <span style="font-style: italic">promised</span> in <a href="https://groups.google.com/d/msg/racket-users/JryxllMvh94/AWlIwR3aCwAJ">a reply</a> no switch will happen until performance is good enough. Alex elaborated his point further by providing function timings of <a href="https://github.com/alex-hhh/ActivityLog2">ActivityLog2</a> <a href="https://gist.github.com/alex-hhh/1ebc1c83b68ee4620a70fc30d2caa6a3">in this gist</a>.</p>
+
+<h2><a name="(part._.Wiki)"></a>Wiki</h2>
+
+<p>Stephen de Gabrielle has been <a href="https://github.com/racket/racket/wiki/Home/_history">seriously active</a> on the <a href="https://github.com/racket/racket/wiki">wiki</a> side of things. It has some really interesting content and you should check it out.</p>
+
+<h2><a name="(part._.Racket_.Github_.Topic)"></a>Racket Github Topic</h2>
+
+<p>Stephen de Gabrielle has beautified the <a href="https://github.com/topics/racket">GitHub topic for Racket</a> through a <a href="https://github.com/github/explore/pull/522">PR</a>.</p>
+
+<h1><a name="(part._.Upcoming_.Meetups)"></a>Upcoming Meetups</h1>
+
+<ul>
+ <li>
+  <p><a href="https://fosdem.org/2019/">FOSDEM2019</a> - On Feb. 2,3 in Brussels, Belgium FOSDEM will take place. There is a <a href="https://fosdem.org/2019/schedule/track/minimalistic_languages/">minimalistic languages interest group</a> where Racket will be mentioned <a href="https://fosdem.org/2019/schedule/event/guileracket/">a</a> <a href="https://fosdem.org/2019/schedule/event/fractalideandcantor/">few</a> <a href="https://fosdem.org/2019/schedule/event/makeownlangracket/">times</a></p></li>
+ <li>
+  <p><a href="http://bobkonf.de/2019/">BOB2019</a> - Right before Racketfest, also in Berlin, Germany. Directly related to Racket, you a talk by our own <a href="https://bobkonf.de/2019/krishnamurthi.html">Shriram Krishnamurthi</a> and a tutorial by <a href="https://bobkonf.de/2019/alama.html">Jesse Alama on WebDev</a></p></li>
+ <li>
+  <p><a href="https://racketfest.com/">RacketFest</a> - Jesse Alama is organizing the first European Racket Meeting. It will take place in Berlin, Germany on March 23, 2019. Make sure you get your ticket before they sell out... again!</p></li></ul>
+
+<h1><a name="(part._.Racket_around_the_web)"></a>Racket around the web</h1>
+
+<p></p>
+
+<div class="SIntrapara">Here are a few blog posts about Racket...
+</div>
+
+<div class="SIntrapara">
+ <ul>
+  <li>
+   <p><a href="http://blog.racket-lang.org/2019/01/racket-on-chez-status.html">Racket-on-Chez Status: January 2019</a></p></li>
+  <li>
+   <p><a href="https://kilotau.com/2019/01/15/can-we-abstract-control-flow.html">Can we abstract control flow?</a></p></li></ul></div>
+
+<h1><a name="(part._.Project_of_the_.Week)"></a>Project of the Week</h1>
+
+<p>We all know how there are so many hidden gems in the Racket world. I hope, in this section, to make these gems shine, one at a time.</p>
+
+<p>So for this week I chose to mention: <a href="https://github.com/willghatch/racket-rash">Rash</a> by <a href="william@hatch.uno">William Hatch</a>.</p>
+
+<p></p>
+
+<div class="SIntrapara">From its webpage:
+</div>
+
+<div class="SIntrapara">
+ <table cellpadding="0" cellspacing="0">
+  <tbody>
+   <tr>
+    <td>
+     <p><span class="stt">Rash is a shell language, library, and REPL for Racket.</span></p></td></tr>
+   <tr>
+    <td>
+     <p><span class="stt"></span><span class="hspace">&nbsp;</span></p></td></tr>
+   <tr>
+    <td>
+     <p><span class="stt">Use as a repl that is as convenient for pipelining programs as Bash is, but has all the power of Racket. Use as a scripting language with #lang rash. Embed in normal Racket files with (require rash), and mix freely with any other Racket language or library.</span></p></td></tr>
+   <tr>
+    <td>
+     <p><span class="stt"></span><span class="hspace">&nbsp;</span></p></td></tr>
+   <tr>
+    <td>
+     <p><span class="stt">Rash is in active development, but it is largely stable (and the parts that aren't are marked as such). I use it as my default interactive shell on my laptop. It currently lacks the interactive polish of Zsh or Fish, but it is so much better as a language. Every script I've ported from a bourne-related shell to Rash is more robust, simpler, easier to maintain, easier to expand, and much more fun.</span></p></td></tr></tbody></table></div>
+
+<p>I have used it on a regular basis to easily access the shell from Racket and it is brilliant. Check it out!</p>
+
+<h1><a name="(part._.Help_.Needed)"></a>Help Needed</h1>
+
+<p>Do you know a project looking for contributors? I would love to hear about it.</p>
+
+<ul>
+ <li>
+  <p><a href="https://racket-news.com">Racket News</a>: Besides the obvious, <span style="font-style: italic">What would you like to see next?</span> I could use a hand to design some sort of logo and maybe make suggestions with regards to the website design. Using Frog with the Clean blog bootstrap4 theme but I am definitely way out of my league as soon as I need to do any CSS or <span style="font-style: italic">design</span>.</p></li></ul>
+
+<h1><a name="(part._.Stats_of_mention)"></a>Stats of mention</h1>
+
+<p>Here is some data from the development of <a href="https://github.com/racket/racket">Racket</a> for the month of January, 2019.</p>
+
+<p>Number of master Commits 129
+Number of Opened PRs
+Number of Opened Bugs
+Number of Closed Bugs</p>
+
+<p>Bugs open
+PRs open</p>
+
+<p></p>
+
+<div class="SIntrapara">Contributions by (12):
+</div>
+
+<div class="SIntrapara">
+ <ul>
+  <li>
+   <p>Ben Greenman</p></li>
+  <li>
+   <p><span class="stt">dharmatech</span></p></li>
+  <li>
+   <p>Greg Hendershott</p></li>
+  <li>
+   <p>Gustavo Massaccesi</p></li>
+  <li>
+   <p>Jay McCarthy</p></li>
+  <li>
+   <p>Matthew Flatt</p></li>
+  <li>
+   <p>Robby Findler</p></li>
+  <li>
+   <p><span class="stt">rxg</span></p></li>
+  <li>
+   <p>Ryan Culpepper</p></li>
+  <li>
+   <p>Spencer Florence</p></li>
+  <li>
+   <p>Vincent St-Amour</p></li>
+  <li>
+   <p>Winny</p></li></ul></div>
+
+<h1><a name="(part._.Jobs)"></a>Jobs</h1>
+
+<p>If you want to advertise any Racket related jobs, please <a href="mailto:pmatos@linki.tools">send me an email</a> or <a href="https://github.com/racket-news/racket-news.github.io-src/pulls">submit a PR</a>.</p>
+
+<h1><a name="(part._.Disclaimer)"></a>Disclaimer</h1>
+
+<p>This issue is brought to you by <a href="mailto:pmatos@linki.tools">Paulo Matos</a>. Any mistakes or inaccuracies are solely mine and
+they do not represent the views of the <a href="http://www.racket-lang.org/team.html">PLT team</a>, who develop Racket.</p>
+
+<p>I have also tried to survey the most relevant things that happened in Racket-lan(g|d) recently. If you have done something awesome, wrote a blog post or seen something that I missed - my apologies. <a href="mailto:pmatos@linki.tools">Let me know</a> so I can rectify it in the next issue.</p>
+  <footer>
+    <script type="text/javascript">
+      !function(d,s,id){
+          var js,fjs=d.getElementsByTagName(s)[0];
+          if(!d.getElementById(id)){
+              js=d.createElement(s);
+              js.id=id;
+              js.src="//platform.twitter.com/widgets.js";
+              fjs.parentNode.insertBefore(js,fjs);
+          }
+      }(document,"script","twitter-wjs");
+    </script>
+    <a href="https://twitter.com/share"
+       class="twitter-share-button"
+       data-url="http://racket-news.com/2019/01/racket-news-issue-1.html"
+       data-dnt="true">
+      "Tweet"</a>
+    <div class="row justify-content-center">
+      <nav aria-label="Page Navigation">
+        <ul class="pagination">
+
+
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</article>
+          <hr>
+          <!-- Pager -->
+          <div class="clearfix">
+            <a class="btn btn-primary float-right" href="#">Older Issues &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <p class="copyright text-muted">Copyright &copy; Paulo Matos 2019</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="/js/clean-blog.min.js"></script>
+
+  </body>
+
+</html>
