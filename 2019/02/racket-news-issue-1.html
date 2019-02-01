@@ -113,9 +113,9 @@
 
 <p>Welcome to the first issue of <a href="http://www.racket-lang.org/">Racket</a> News. I am hoping this will be of interest to everyone in the Racket community so if there&rsquo;s something you really dislike, or something you want to see added to the newsletter please <a href="mailto:pmatos@linki.tools">send me an email</a> or <a href="https://github.com/racket-news/racket-news.github.io-src/pulls">submit a PR</a>.</p>
 
-<p>Also, I think at the moment a bi-weekly or monthly newsletter is something reasonable. By this I mean that I should have time to put it together at this regular interval with enough interesting content. If things happen differently when I will change how often it comes out.</p>
+<p>Also, I think at the moment a bi-weekly or monthly newsletter is something reasonable. By this, I mean that I should have time to put it together at this regular interval with enough interesting content. If things happen differently when I will change how often it comes out.</p>
 
-<p>In this issue we have the Racket 7.2 release, update on RacketCS, and a few extra goodies that came out recently.</p>
+<p>In this issue, we have the Racket 7.2 release, update on RacketCS, and a few extra goodies that came out recently.</p>
 
 <h1><a name="(part._.What_s_.New_)"></a>What&rsquo;s New?</h1>
 
@@ -125,9 +125,9 @@
 
 <h2><a name="(part._.Racket.C.S)"></a>RacketCS</h2>
 
-<p>This week we saw an <a href="http://blog.racket-lang.org/2019/01/racket-on-chez-status.html">update on Racket-On-Chez</a> by Matthew Flatt. For those who missed the boat, the whole point of this transition is maintainability. Hopefully with a more maintainable system, things will get easier for those currently contributing to Racket but also newcomers to Racket might more easily contribute PRs to improve the system in general.</p>
+<p>This week we saw an <a href="http://blog.racket-lang.org/2019/01/racket-on-chez-status.html">update on Racket-On-Chez</a> by Matthew Flatt. For those who missed the boat, the whole point of this transition is maintainability. Hopefully, with a more maintainable system, things will get easier for those currently contributing to Racket but also newcomers to Racket might more easily contribute PRs to improve the system in general.</p>
 
-<p>The summary on the report is that Racket on Chez is considered mostly done with all functionility in place and most tests passing. There are a few things where RacketCS won&rsquo;t behave the same as current Racket:</p>
+<p>The summary on the report is that Racket on Chez is considered mostly done with all functionality in place and most tests passing. There are a few things where RacketCS won&rsquo;t behave the same as current Racket:</p>
 
 <ul>
  <li>
@@ -137,7 +137,7 @@
  <li>
   <p>no support for C API;</p></li></ul>
 
-<p>There are a few other incompatible points but for more detail please refer to the original post. RacketCS will never be fully compatible with Racket, therefore he whole point is to get people to move their stuff to RacketCS and get rid of the current Racket variant.</p>
+<p>There are a few other incompatible points but for more detail please refer to the original post. RacketCS will never be fully compatible with Racket, therefore the whole point is to get people to move their stuff to RacketCS and get rid of the current Racket variant.</p>
 
 <p>However, there are some performance issues that might block a few applications from transitioning right away. Alex Harsanyi, developer of <a href="https://github.com/alex-hhh/ActivityLog2">ActivityLog2</a> <a href="https://groups.google.com/d/msg/racket-users/JryxllMvh94/BjFR01wHFgAJ">mentioned in the mailing list</a> that in his case RacketCS is significantly slower than Racket 7.1. Matthew <span style="font-style: italic">promised</span> in <a href="https://groups.google.com/d/msg/racket-users/JryxllMvh94/AWlIwR3aCwAJ">a reply</a> no switch will happen until performance is good enough. Alex elaborated his point further by providing function timings of <a href="https://github.com/alex-hhh/ActivityLog2">ActivityLog2</a> <a href="https://gist.github.com/alex-hhh/1ebc1c83b68ee4620a70fc30d2caa6a3">in this gist</a>.</p>
 
