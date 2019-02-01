@@ -1,7 +1,7 @@
 #lang scribble/manual
 
 Title: Racket News - Issue 1
-Date: 2019-01-31T08:16:22
+Date: 2019-02-01
 
 Welcome to the first issue of @hyperlink["http://www.racket-lang.org/"]{Racket} News. I am hoping this will be of interest to everyone in the Racket community so if there's something you really dislike, or something you want to see added to the newsletter please @hyperlink["mailto:pmatos@linki.tools"]{send me an email} or @hyperlink["https://github.com/racket-news/racket-news.github.io-src/pulls"]{submit a PR}.
 
@@ -85,13 +85,16 @@ Do you know a project looking for contributors? I would love to hear about it.
 Here is some data from the development of @hyperlink["https://github.com/racket/racket"]{Racket} for the month of January, 2019.
 
 @; git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ci) %C(bold blue)|%an%Creset' --abbrev-commit --date=short --since='2019-01-01' | wc -l
-Number of master Commits 129
-Number of Opened PRs
-Number of Opened Bugs
-Number of Closed Bugs
-
-Bugs open
-PRs open
+@; and Github insights
+@tabular[
+'(("Number of master Commits" 131)
+  ("Number of Opened PRs"       2)
+  ("Number of Merged PRs"       7)
+  ("Number of Opened Bugs"      4)
+  ("Number of Closed Bugs"      7)
+  ("Bugs open"                282)
+  ("PRs open"                  87))
+  ]
 
 @; git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ci) %C(bold blue)|%an%Creset' --abbrev-commit --date=short --since='2019-01-01' | cut -d '|' -f 2 | sort -u | uniq
 
