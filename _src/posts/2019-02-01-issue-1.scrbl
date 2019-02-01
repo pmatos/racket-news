@@ -87,13 +87,13 @@ Here is some data from the development of @hyperlink["https://github.com/racket/
 @; git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ci) %C(bold blue)|%an%Creset' --abbrev-commit --date=short --since='2019-01-01' | wc -l
 @; and Github insights
 @tabular[
-'(("Number of master Commits" 131)
-  ("Number of Opened PRs"       2)
-  ("Number of Merged PRs"       7)
-  ("Number of Opened Bugs"      4)
-  ("Number of Closed Bugs"      7)
-  ("Bugs open"                282)
-  ("PRs open"                  87))
+'(("Number of master Commits" "131")
+  ("Number of Opened PRs"       "2")
+  ("Number of Merged PRs"       "7")
+  ("Number of Opened Bugs"      "4")
+  ("Number of Closed Bugs"      "7")
+  ("Bugs open"                "282")
+  ("PRs open"                  "87"))
   ]
 
 @; git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ci) %C(bold blue)|%an%Creset' --abbrev-commit --date=short --since='2019-01-01' | cut -d '|' -f 2 | sort -u | uniq
