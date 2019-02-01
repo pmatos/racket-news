@@ -5,9 +5,9 @@ Date: 2019-02-01T08:00:00
 
 Welcome to the first issue of @hyperlink["http://www.racket-lang.org/"]{Racket} News. I am hoping this will be of interest to everyone in the Racket community so if there's something you really dislike, or something you want to see added to the newsletter please @hyperlink["mailto:pmatos@linki.tools"]{send me an email} or @hyperlink["https://github.com/racket-news/racket-news.github.io-src/pulls"]{submit a PR}.
 
-Also, I think at the moment a bi-weekly or monthly newsletter is something reasonable. By this I mean that I should have time to put it together at this regular interval with enough interesting content. If things happen differently when I will change how often it comes out.
+Also, I think at the moment a bi-weekly or monthly newsletter is something reasonable. By this, I mean that I should have time to put it together at this regular interval with enough interesting content. If things happen differently when I will change how often it comes out.
 
-In this issue we have the Racket 7.2 release, update on RacketCS, and a few extra goodies that came out recently.
+In this issue, we have the Racket 7.2 release, update on RacketCS, and a few extra goodies that came out recently.
 
 @section[#:style 'unnumbered]{What's New?}
 
@@ -17,9 +17,9 @@ Racket 7.2 has been released! Vincent St-Amour has @hyperlink["https://groups.go
 
 @subsection[#:style 'unnumbered]{RacketCS}
 
-This week we saw an @hyperlink["http://blog.racket-lang.org/2019/01/racket-on-chez-status.html"]{update on Racket-On-Chez} by Matthew Flatt. For those who missed the boat, the whole point of this transition is maintainability. Hopefully with a more maintainable system, things will get easier for those currently contributing to Racket but also newcomers to Racket might more easily contribute PRs to improve the system in general.
+This week we saw an @hyperlink["http://blog.racket-lang.org/2019/01/racket-on-chez-status.html"]{update on Racket-On-Chez} by Matthew Flatt. For those who missed the boat, the whole point of this transition is maintainability. Hopefully, with a more maintainable system, things will get easier for those currently contributing to Racket but also newcomers to Racket might more easily contribute PRs to improve the system in general.
 
-The summary on the report is that Racket on Chez is considered mostly done with all functionility in place and most tests passing. There are a few things where RacketCS won't behave the same as current Racket:
+The summary on the report is that Racket on Chez is considered mostly done with all functionality in place and most tests passing. There are a few things where RacketCS won't behave the same as current Racket:
 
 @itemlist[
 	@item{no single-precision or extended-precision flonums;}
@@ -27,7 +27,7 @@ The summary on the report is that Racket on Chez is considered mostly done with 
 	@item{no support for C API;}
 ]
 
-There are a few other incompatible points but for more detail please refer to the original post. RacketCS will never be fully compatible with Racket, therefore he whole point is to get people to move their stuff to RacketCS and get rid of the current Racket variant.
+There are a few other incompatible points but for more detail please refer to the original post. RacketCS will never be fully compatible with Racket, therefore the whole point is to get people to move their stuff to RacketCS and get rid of the current Racket variant.
 
 However, there are some performance issues that might block a few applications from transitioning right away. Alex Harsanyi, developer of @hyperlink["https://github.com/alex-hhh/ActivityLog2"]{ActivityLog2} @hyperlink["https://groups.google.com/d/msg/racket-users/JryxllMvh94/BjFR01wHFgAJ"]{mentioned in the mailing list} that in his case RacketCS is significantly slower than Racket 7.1. Matthew @italic{promised} in @hyperlink["https://groups.google.com/d/msg/racket-users/JryxllMvh94/AWlIwR3aCwAJ"]{a reply} no switch will happen until performance is good enough. Alex elaborated his point further by providing function timings of @hyperlink["https://github.com/alex-hhh/ActivityLog2"]{ActivityLog2} @hyperlink["https://gist.github.com/alex-hhh/1ebc1c83b68ee4620a70fc30d2caa6a3"]{in this gist}.
 
