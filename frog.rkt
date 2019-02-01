@@ -6,7 +6,8 @@
   (-> any)
   (current-scheme/host "http://racket-news.com")
   (current-title "Racket News")
-  (current-author "Paulo Matos"))
+  (current-author "Paulo Matos")
+  (current-output-dir "./site"))
 
 ;; Called once per post and non-post page, on the contents.
 (define/contract (enhance-body xs)
