@@ -4,13 +4,13 @@
  <link rel="self" href="http://racket-news.com/feeds/all.atom.xml" />
  <link href="http://racket-news.com/index.html" />
  <id>urn:http-racket-news-com:-index-html</id>
- <updated>2019-01-31T07:16:22Z</updated>
+ <updated>2019-02-01T07:00:00Z</updated>
  <entry>
   <title type="text">Racket News - Issue 1</title>
-  <link rel="alternate" href="http://racket-news.com/2019/01/racket-news-issue-1.html?utm_source=all&amp;utm_medium=Atom" />
-  <id>urn:http-racket-news-com:-2019-01-racket-news-issue-1-html</id>
-  <published>2019-01-31T07:16:22Z</published>
-  <updated>2019-01-31T07:16:22Z</updated>
+  <link rel="alternate" href="http://racket-news.com/2019/02/racket-news-issue-1.html?utm_source=all&amp;utm_medium=Atom" />
+  <id>urn:http-racket-news-com:-2019-02-racket-news-issue-1-html</id>
+  <published>2019-02-01T07:00:00Z</published>
+  <updated>2019-02-01T07:00:00Z</updated>
   <author>
    <name>Paulo Matos</name></author>
   <content type="html">
@@ -120,13 +120,45 @@
 
 &lt;p&gt;Here is some data from the development of &lt;a href="https://github.com/racket/racket"&gt;Racket&lt;/a&gt; for the month of January, 2019.&lt;/p&gt;
 
-&lt;p&gt;Number of master Commits 129
-Number of Opened PRs
-Number of Opened Bugs
-Number of Closed Bugs&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
 
-&lt;p&gt;Bugs open
-PRs open&lt;/p&gt;
+&lt;table cellpadding="0" cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;Number of master Commits&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;131&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;Number of Opened PRs&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;2&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;Number of Merged PRs&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;7&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;Number of Opened Bugs&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;4&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;Number of Closed Bugs&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;7&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;Bugs open&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;282&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;PRs open&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;87&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 
 &lt;p&gt;&lt;/p&gt;
 

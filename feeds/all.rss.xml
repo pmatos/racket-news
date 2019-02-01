@@ -4,14 +4,14 @@
   <title>Racket News: Racket News</title>
   <description>Racket News: Racket News</description>
   <link>http://racket-news.com/index.html</link>
-  <lastBuildDate>Thu, 31 Jan 2019 07:16:22 UT</lastBuildDate>
-  <pubDate>Thu, 31 Jan 2019 07:16:22 UT</pubDate>
+  <lastBuildDate>Fri, 01 Feb 2019 07:00:00 UT</lastBuildDate>
+  <pubDate>Fri, 01 Feb 2019 07:00:00 UT</pubDate>
   <ttl>1800</ttl>
   <item>
    <title>Racket News - Issue 1</title>
-   <link>http://racket-news.com/2019/01/racket-news-issue-1.html?utm_source=all&amp;utm_medium=RSS</link>
-   <guid isPermaLink="false">urn:http-racket-news-com:-2019-01-racket-news-issue-1-html</guid>
-   <pubDate>Thu, 31 Jan 2019 07:16:22 UT</pubDate>
+   <link>http://racket-news.com/2019/02/racket-news-issue-1.html?utm_source=all&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:http-racket-news-com:-2019-02-racket-news-issue-1-html</guid>
+   <pubDate>Fri, 01 Feb 2019 07:00:00 UT</pubDate>
    <author>Paulo Matos</author>
    <description>
 &lt;p&gt;Welcome to the first issue of &lt;a href="http://www.racket-lang.org/"&gt;Racket&lt;/a&gt; News. I am hoping this will be of interest to everyone in the Racket community so if there&amp;rsquo;s something you really dislike, or something you want to see added to the newsletter please &lt;a href="mailto:pmatos@linki.tools"&gt;send me an email&lt;/a&gt; or &lt;a href="https://github.com/racket-news/racket-news.github.io-src/pulls"&gt;submit a PR&lt;/a&gt;.&lt;/p&gt;
@@ -120,13 +120,45 @@
 
 &lt;p&gt;Here is some data from the development of &lt;a href="https://github.com/racket/racket"&gt;Racket&lt;/a&gt; for the month of January, 2019.&lt;/p&gt;
 
-&lt;p&gt;Number of master Commits 129
-Number of Opened PRs
-Number of Opened Bugs
-Number of Closed Bugs&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
 
-&lt;p&gt;Bugs open
-PRs open&lt;/p&gt;
+&lt;table cellpadding="0" cellspacing="0"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;Number of master Commits&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;131&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;Number of Opened PRs&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;2&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;Number of Merged PRs&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;7&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;Number of Opened Bugs&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;4&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;Number of Closed Bugs&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;7&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;Bugs open&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;282&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+    &lt;p&gt;PRs open&lt;/p&gt;&lt;/td&gt;
+   &lt;td&gt;
+    &lt;p&gt;87&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 
 &lt;p&gt;&lt;/p&gt;
 
