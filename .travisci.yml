@@ -1,0 +1,27 @@
+env:
+  global:
+    - RACKET_DIR=~/racket
+    - RACKET_VERSION=7.1
+
+before_install:
+  - git clone https://github.com/greghendershott/travis-racket.git
+  - cat travis-racket/install-racket.sh | bash # pipe to bash not sh!
+  - export PATH="${RACKET_DIR}/bin:${PATH}" #install-racket.sh can't set for us
+  - rack pkg install --auto frog
+  
+script:
+  - make site
+
+deploy:
+  provider: pages
+  local-dir: site
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  project-name: "Racket News"
+  verbose: true
+  repo: "racket-news/racket-news.github.io"
+  target-branch: master
+  on:
+    branch: production
+  
