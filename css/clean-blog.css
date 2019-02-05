@@ -180,6 +180,15 @@ header {
     margin-right: auto;
     margin-left: auto;
     font-family: 'Oswald', Arial, sans-serif;
+    padding: 100px 0px 100px 0px;
+}
+
+.header * {
+    float: right;
+}
+
+.header .img {
+    float: left;
 }
 
 .post-preview > a {
