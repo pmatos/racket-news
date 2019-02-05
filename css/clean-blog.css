@@ -187,8 +187,13 @@ header {
     float: right;
 }
 
-.header .img {
+.header>#logo {
     float: left;
+}
+
+#logo.resize {
+    width: 200px;
+    height: auto;
 }
 
 .post-preview > a {
