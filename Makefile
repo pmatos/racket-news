@@ -1,4 +1,4 @@
-.PHONY: site
+.PHONY: site clean
 
 site:
 	raco frog -b
@@ -6,3 +6,7 @@ site:
 	cp img/favicon.png site/
 	cp img/racket-news-500w.png site/logo.png
 	echo 'racket-news.com' > site/CNAME
+
+clean:
+	rm -Rf site/
+
