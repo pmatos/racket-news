@@ -9,14 +9,15 @@ Welcome to the second issue of @hyperlink["https://www.racket-lang.org"]{Racket}
 @section[#:style 'unnumbered]{What's New?}
 
 @itemlist[
-@item{@bold{@hyperlink["https://school.racket-lang.org/"]{Racket School 2019}} has been announced. With two tracks to choose from: @italics{How to design languages} and @italics{Beautiful Racket workshop} by Racket heavyweights, it's time to register. It'll happen just before @hyperlink["https://con.racket-lang.org"]{RacketCon}, on July 13-14.}
+@item{@bold{@hyperlink["https://school.racket-lang.org/"]{Racket School 2019}} has been announced. With two tracks to choose from: @italic{How to design languages} and @italic{Beautiful Racket workshop} by Racket heavyweights, it's time to register. It'll happen just before @hyperlink["https://con.racket-lang.org"]{RacketCon}, on July 13-14.}
+]
 
 @section[#:style 'unnumbered]{Upcoming Meetups}
 
 @itemlist[
 	@item{@hyperlink["http://bobkonf.de/2019/"]{BOB2019} - Right before Racketfest, also in Berlin, Germany there will be a few Rackety related things going on like a talk by @hyperlink["https://bobkonf.de/2019/krishnamurthi.html"]{Shriram Krishnamurthi} and a tutorial by @hyperlink["https://bobkonf.de/2019/alama.html"]{Jesse Alama}}
 	@item{@hyperlink["https://racketfest.com/"]{RacketFest} - Jesse Alama is organizing the first European Racket Meeting. It will take place in Berlin, Germany on March 23, 2019. Make sure you get your ticket before they sell out... again!}
-	@item{@hyperlink["https://school.racket-lang.org/"]{Racket School 2019}} - taught by Racket heavyweights it's your time to get you #lang-fu up to scratch. Will take place in Salt Lake City, US on July 13-14.
+	@item{@hyperlink["https://school.racket-lang.org/"]{Racket School 2019} - taught by Racket heavyweights it's your time to get you #lang-fu up to scratch. Will take place in Salt Lake City, US on July 13-14.}
 ]
 
 
