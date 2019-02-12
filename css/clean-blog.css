@@ -187,11 +187,8 @@ header {
     float: right;
 }
 
-.header>#logo {
+#logo {
     float: left;
-}
-
-#logo.resize {
     width: 200px;
     height: auto;
 }
