@@ -1,10 +1,10 @@
 #lang scribble/manual
 
-Title: Racket News - Issue 2
-Date: 2019-02-15T08:00:00
+Title: Racket News - Issue 3
+Date: 2019-03-01T08:00:00
 Tags: DRAFT
 
-Welcome to the second issue of @hyperlink["https://www.racket-lang.org"]{Racket} News. Thanks for Greg Trzeciak's contributions to the issue. I will add a new section to the newsletter with the issue's contributors. If there's something you really dislike, or something you want to see added to the newsletter please @hyperlink["mailto:pmatos@linki.tools"]{send me an email} or @hyperlink["https://github.com/racket-news/racket-news.github.io-src/issues"]{submit an issue}.
+Welcome to the second issue of @hyperlink["https://www.racket-lang.org"]{Racket} News. If there's something you really dislike, or something you want to see added to the newsletter please @hyperlink["mailto:pmatos@linki.tools"]{send me an email} or @hyperlink["https://github.com/racket-news/racket-news.github.io-src/issues"]{submit an issue}.
 
 @section[#:style 'unnumbered]{What's New?}
 
@@ -23,12 +23,6 @@ Welcome to the second issue of @hyperlink["https://www.racket-lang.org"]{Racket}
 If you want to advertise any Racket related jobs, please @hyperlink["mailto:pmatos@linki.tools"]{send me an email} or @hyperlink["https://github.com/racket-news/racket-news.github.io-src/issues"]{submit an issue}.
 
 @section[#:style 'unnumbered]{Contributors}
-
-Thanks to:
-
-* Greg Trzeciak
-
-for his contributions to this issue.
 
 @section[#:style 'unnumbered]{Disclaimer}
 
