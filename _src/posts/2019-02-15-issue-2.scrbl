@@ -8,7 +8,8 @@ Welcome to the second issue of @hyperlink["https://www.racket-lang.org"]{Racket}
 
 @section[#:style 'unnumbered]{What's New?}
 
-
+@itemlist[
+@item{@bold{@hyperlink["https://school.racket-lang.org/"]{Racket School 2019}} has been announced. With two tracks to choose from: @italics{How to design languages} and @italics{Beautiful Racket workshop} by Racket heavyweights, it's time to register. It'll happen just before @hyperlink["https://con.racket-lang.org"]{RacketCon}, on July 13-14.}
 
 @section[#:style 'unnumbered]{Upcoming Meetups}
 
