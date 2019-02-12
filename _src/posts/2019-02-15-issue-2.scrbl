@@ -15,6 +15,12 @@ Welcome to the second issue of @hyperlink["https://www.racket-lang.org"]{Racket}
 
 @section[#:style 'unnumbered]{Racket around the web}
 
+An interesting post made the spotlight recently discussing the implementation of exceptions with continuations in Racket:
+
+@itemlist[
+@item{@hyperlink["https://www.kimsereylam.com/lisp/racket/2019/01/30/implementing-exceptions-with-continuations-racket-lisp.html"]{Implementing Exceptions With Continuations Racket Lisp}}
+]
+
 @section[#:style 'unnumbered]{Project of the Week}
 
 @section[#:style 'unnumbered]{Help Needed}
