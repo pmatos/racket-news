@@ -13,6 +13,13 @@ Welcome to the second issue of @hyperlink["https://www.racket-lang.org"]{Racket}
 
 @section[#:style 'unnumbered]{Upcoming Meetups}
 
+@itemlist[
+	@item{@hyperlink["http://bobkonf.de/2019/"]{BOB2019} - Right before Racketfest, also in Berlin, Germany there will be a few Rackety related things going on like a talk by @hyperlink["https://bobkonf.de/2019/krishnamurthi.html"]{Shriram Krishnamurthi} and a tutorial by @hyperlink["https://bobkonf.de/2019/alama.html"]{Jesse Alama}}
+	@item{@hyperlink["https://racketfest.com/"]{RacketFest} - Jesse Alama is organizing the first European Racket Meeting. It will take place in Berlin, Germany on March 23, 2019. Make sure you get your ticket before they sell out... again!}
+	@item{@hyperlink["https://school.racket-lang.org/"]{Racket School 2019}} - taught by Racket heavyweights it's your time to get you #lang-fu up to scratch. Will take place in Salt Lake City, US on July 13-14.
+]
+
+
 @section[#:style 'unnumbered]{Racket around the web}
 
 A post on exceptions implementation and a few videos have his the web. Grab a cup of coffee (or your favourite beverage) and dig in.
@@ -28,6 +35,12 @@ A post on exceptions implementation and a few videos have his the web. Grab a cu
 @section[#:style 'unnumbered]{Project of the Week}
 
 @section[#:style 'unnumbered]{Help Needed}
+
+Do you know a project looking for contributors? I would love to hear about it.
+
+@itemlist[
+@item{@hyperlink["https://racket-news.com"]{Racket News}: Besides the obvious, @italic{What would you like to see next?} I could use a hand to make suggestions with regards to the website design. Using Frog with the Clean blog bootstrap4 theme but I am definitely way out of my league as soon as I need to do any CSSy stuff.}
+]
 
 @section[#:style 'unnumbered]{Stats of mention}
 
