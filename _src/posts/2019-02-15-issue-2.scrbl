@@ -15,10 +15,14 @@ Welcome to the second issue of @hyperlink["https://www.racket-lang.org"]{Racket}
 
 @section[#:style 'unnumbered]{Racket around the web}
 
-An interesting post made the spotlight recently discussing the implementation of exceptions with continuations in Racket:
-
+A post on exceptions implementation and a few videos have his the web. Grab a cup of coffee (or your favourite beverage) and dig in.
 @itemlist[
-@item{@hyperlink["https://www.kimsereylam.com/lisp/racket/2019/01/30/implementing-exceptions-with-continuations-racket-lisp.html"]{Implementing Exceptions With Continuations Racket Lisp}}
+@item{@hyperlink["https://www.kimsereylam.com/lisp/racket/2019/01/30/implementing-exceptions-with-continuations-racket-lisp.html"]{Implementing Exceptions With Continuations Racket Lisp}, by Kimserey Lam}
+@item{@hyperlink["https://media.ccc.de/v/35c3-9800-how_to_teach_programming_to_your_loved_ones"]{How to teach programming to your loved ones}, by Michael Sperber}
+@item{@hyperlink["https://fosdem.org/2019/schedule/event/jsonwhendsl/"]{Why JSON when you can DSL? Your problematics deserve their own language}, by Jérôme Martin at FOSDEM2019}
+@item{@hyperlink["https://fosdem.org/2019/schedule/event/guileracket/"]{A Guiler's Year of Racket}, by Christopher Webber at FOSDEM2019}
+@item{@hyperlink["https://fosdem.org/2019/schedule/event/fractalideandcantor/"]{Fractalide and Cantor A Racket application built with Flow-Based Programming}, by Claes Wallin at FOSDEM2019}
+@item{@hyperlink["https://fosdem.org/2019/schedule/event/makeownlangracket/"]{Make your own language with Racket. A kickstart workshop for the creative minds}, by Jérôme Martin at FOSDEM2019}
 ]
 
 @section[#:style 'unnumbered]{Project of the Week}
