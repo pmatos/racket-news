@@ -187,10 +187,18 @@ header {
     float: right;
 }
 
-#logo {
+.site-heading {
+    heigth: 200px;
+}
+
+.site-heading #logo {
     float: left;
-    width: 200px;
-    height: auto;
+    width: auto;
+    height: 200px;
+}
+
+.site-heading h1 {
+    vertical-align: middle;
 }
 
 .post-preview > a {
