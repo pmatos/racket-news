@@ -8,6 +8,8 @@ Welcome to the second issue of @hyperlink["https://www.racket-lang.org"]{Racket}
 
 @section[#:style 'unnumbered]{What's New?}
 
+
+
 @section[#:style 'unnumbered]{Upcoming Meetups}
 
 @section[#:style 'unnumbered]{Racket around the web}
@@ -26,7 +28,9 @@ If you want to advertise any Racket related jobs, please @hyperlink["mailto:pmat
 
 Thanks to:
 
-* Greg Trzeciak
+@itemlist[
+@item{Greg Trzeciak}
+]
 
 for his contributions to this issue.
 
