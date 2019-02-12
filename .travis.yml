@@ -3,7 +3,7 @@ language: c
 env:
   global:
     - RACKET_DIR=~/racket
-    - RACKET_VERSION=7.1
+    - RACKET_VERSION=7.2
 
 before_install:
   - git clone https://github.com/greghendershott/travis-racket.git
