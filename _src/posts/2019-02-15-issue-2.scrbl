@@ -10,6 +10,13 @@ Welcome to the second issue of @hyperlink["https://www.racket-lang.org"]{Racket}
 
 @itemlist[
 @item{@bold{@hyperlink["https://school.racket-lang.org/"]{Racket School 2019}} has been announced. With two tracks to choose from: @italic{How to design languages} and @italic{Beautiful Racket workshop} by Racket heavyweights, it's time to register. It'll happen just before @hyperlink["https://con.racket-lang.org"]{RacketCon}, on July 13-14.}
+@item{On the mailing list @hyperlink["https://groups.google.com/d/msg/racket-users/SmdgFe4nnfU/LIbSra1_GQAJ"]{Little language design/implementation guidance}: Stephen De Gabrielle started an interesting thread on language design that definitely worth some time.}
+@item{Also on the mailing list @hyperlink["https://groups.google.com/d/msg/racket-users/N3Ke2ORZZ_Q/dsuDVq1vFwAJ"]{Python's append vs Racket's append and helping novices understand the implications}: Alex Harsanyi started this thread which mixes a lot of Python, Racket and how to introduce Racket to Pythonistas. Many interesting links come out of it:
+	   @itemlist[
+	   @item{@hyperlink["https://www.draketo.de/py2guile"]{Python to Guile book} by Arne Babenhauserheide}
+	   @item{@hyperlink["https://github.com/racket/racket/wiki/Python-to-Racket"]{Python to Racket} on the Racket Wiki started by Stephen de Gabrielle}
+	   @item{@hyperlink["https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/racket-python3.html"]{Racket vs Python3} on the Benchmarks game}
+	   ]}
 ]
 
 @section[#:style 'unnumbered]{Upcoming Meetups}
@@ -41,11 +48,11 @@ This week I would like to feature @hyperlink["https://docs.racket-lang.org/roset
 In simple terms, Rosette integrates a constraint solver into your favourite programming language and makes a language out of it. Do you know those fruit salad brain teasers that leave you hungrier but not so teased?
 
 Yes, these...
-@image["@|uri-path|/img/issue2/fruit-teaser.png"]
+@image["img/issue2/fruit-teaser.png"]
 
 Don't waste time with them unless you want to use them to have some Rosette fun:
 
-@codeblock[
+@codeblock|{
 #lang rosette/safe
 
 (define-symbolic apple integer?)
@@ -58,15 +65,15 @@ Don't waste time with them unless you want to use them to have some Rosette fun:
 (assert (= (+ banana grape apple) 105))
 
 (solve (assert (= (+ banana grape) question-mark)))
-]
+}|
 
-@codeblock[
+@codeblock|{
 > (model
    [apple 40]
    [banana 30]
    [grape 35]
    [question-mark 65])
-]
+}|
 
 This is an incredibly interesting project with endless application, besides being an excellent showcase of Racket's ability to create new languages with different evaluation models.
 
