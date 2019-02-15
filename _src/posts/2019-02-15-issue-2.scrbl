@@ -2,7 +2,6 @@
 
 Title: Racket News - Issue 2
 Date: 2019-02-15T08:00:00
-Tags: DRAFT
 
 Welcome to the second issue of @hyperlink["https://www.racket-lang.org"]{Racket} News. Thanks for Greg Trzeciak's contributions to the issue. I will add a new section to the newsletter with the issue's contributors. If there's something you really dislike, or something you want to see added to the newsletter please @hyperlink["mailto:pmatos@linki.tools"]{send me an email} or @hyperlink["https://github.com/racket-news/racket-news.github.io-src/issues"]{submit an issue}.
 
