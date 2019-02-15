@@ -5,6 +5,8 @@ Date: 2019-02-15T08:00:00
 
 Welcome to the second issue of @hyperlink["https://www.racket-lang.org"]{Racket} News. Thanks for Greg Trzeciak's contributions to the issue. I will add a new section to the newsletter with the issue's contributors. If there's something you really dislike, or something you want to see added to the newsletter please @hyperlink["mailto:pmatos@linki.tools"]{send me an email} or @hyperlink["https://github.com/racket-news/racket-news.github.io-src/issues"]{submit an issue}.
 
+I have setup a newsletter through @hyperlink["https://mailchimp.com"]{mailchimp} that you can register to from the @hyperlink["https://racket-news.com"]{main page} if you prefer to get all the issues straight into your mailbox. There are a few issues with the online CSS and fonts which I need to do some searching/learning to solve - Apologies for that. 
+
 @section[#:style 'unnumbered]{What's New?}
 
 @itemlist[
