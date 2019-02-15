@@ -1,6 +1,6 @@
 .PHONY: site clean lgtm
 
-site:
+site: clean
 	raco frog -b
 	cp -Rv js/ css/ site/
 	cp img/favicon.png site/
