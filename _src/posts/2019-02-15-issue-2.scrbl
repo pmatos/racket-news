@@ -11,13 +11,6 @@ I have setup a newsletter through @hyperlink["https://mailchimp.com"]{mailchimp}
 
 @itemlist[
 @item{@bold{@hyperlink["https://school.racket-lang.org/"]{Racket School 2019}} has been announced. With two tracks to choose from: @italic{How to design languages} and @italic{Beautiful Racket workshop} by Racket heavyweights, it's time to register. It'll happen just before @hyperlink["https://con.racket-lang.org"]{RacketCon}, on July 13-14.}
-@item{On the mailing list @hyperlink["https://groups.google.com/d/msg/racket-users/SmdgFe4nnfU/LIbSra1_GQAJ"]{Little language design/implementation guidance}: Stephen De Gabrielle started an interesting thread on language design that is definitely worth some time.}
-@item{Also on the mailing list @hyperlink["https://groups.google.com/d/msg/racket-users/N3Ke2ORZZ_Q/dsuDVq1vFwAJ"]{Python's append vs Racket's append and helping novices understand the implications}: Alex Harsanyi started this thread which mixes a lot of Python, Racket and how to introduce Racket to Pythonistas. Many interesting links come out of it:
-	   @itemlist[
-	   @item{@hyperlink["https://www.draketo.de/py2guile"]{Python to Guile book} by Arne Babenhauserheide}
-	   @item{@hyperlink["https://github.com/racket/racket/wiki/Python-to-Racket"]{Python to Racket} on the Racket Wiki started by Stephen de Gabrielle}
-	   @item{@hyperlink["https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/racket-python3.html"]{Racket vs Python3} on the Benchmarks game}
-	   ]}
 ]
 
 @section[#:style 'unnumbered]{Upcoming Meetups}
@@ -30,9 +23,17 @@ I have setup a newsletter through @hyperlink["https://mailchimp.com"]{mailchimp}
 
 @section[#:style 'unnumbered]{Racket around the web}
 
-Here is a post on exceptions implementation and a few videos for you today. Grab a cup of coffee (or your favourite beverage) and dig in.
+A few blog posts and videos Here is a post on exceptions implementation and a few videos for you today. Grab a cup of coffee (or your favourite beverage) and dig in.
 @itemlist[
 @item{@hyperlink["https://www.kimsereylam.com/lisp/racket/2019/01/30/implementing-exceptions-with-continuations-racket-lisp.html"]{Implementing Exceptions With Continuations Racket Lisp}, by Kimserey Lam}
+@item{On the mailing list @hyperlink["https://groups.google.com/d/msg/racket-users/SmdgFe4nnfU/LIbSra1_GQAJ"]{Little language design/implementation guidance}: Stephen De Gabrielle started an interesting thread on language design that is definitely worth some time.}
+@item{Also on the mailing list @hyperlink["https://groups.google.com/d/msg/racket-users/N3Ke2ORZZ_Q/dsuDVq1vFwAJ"]{Python's append vs Racket's append and helping novices understand the implications}: Alex Harsanyi started this thread which mixes a lot of Python, Racket and how to introduce Racket to Pythonistas. Many interesting links come out of it:
+	   @itemlist[
+	   @item{@hyperlink["https://www.draketo.de/py2guile"]{Python to Guile book} by Arne Babenhauserheide}
+	   @item{@hyperlink["https://github.com/racket/racket/wiki/Python-to-Racket"]{Python to Racket} on the Racket Wiki started by Stephen de Gabrielle}
+	   @item{@hyperlink["https://benchmarksgame-team.pages.debian.net/benchmarksgame/faster/racket-python3.html"]{Racket vs Python3} on the Benchmarks game}
+	   ]}
+@item{@hyperlink["https://alex-hhh.github.io/2019/02/racket-data-structures.html"]{An Overview of Common Racket Data Structures}: Alex's blog post on Racket Data structures, motivated by the Python vs Racket append threads linked to above.}
 @item{@hyperlink["https://media.ccc.de/v/35c3-9800-how_to_teach_programming_to_your_loved_ones"]{How to teach programming to your loved ones}, by Michael Sperber}
 @item{@hyperlink["https://fosdem.org/2019/schedule/event/jsonwhendsl/"]{Why JSON when you can DSL? Your problematics deserve their own language}, by Jérôme Martin at FOSDEM2019}
 @item{@hyperlink["https://fosdem.org/2019/schedule/event/guileracket/"]{A Guiler's Year of Racket}, by Christopher Webber at FOSDEM2019}
