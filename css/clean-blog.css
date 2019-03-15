@@ -7,12 +7,14 @@
 body {
   font-size: 20px;
   color: #212529;
-  font-family: 'Arimo', serif;
+  font-family: 'Arimo', Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 p {
   line-height: 1.5;
   margin: 30px 0;
+  font-family: 'Arimo', Georgia, Cambria, "Times New Roman", Times, serif;
+
 }
 
 p a {
@@ -30,7 +32,7 @@ h6 {
 }
 
 a {
-  color: #212529;
+  color: #4582EC;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
