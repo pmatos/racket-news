@@ -25,5 +25,5 @@ deploy:
   repo: "racket-news/racket-news.github.io"
   target-branch: master
   on:
-    branch: production
+    branch: master
   
