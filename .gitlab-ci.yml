@@ -1,7 +1,6 @@
 image: debian:stable-slim
 
-pages:
-  stage: deploy
+build-site:
   variables:
     RACKET_VERSION: "7.3"
     RACKET_DIR: $CI_PROJECT_DIR/install
@@ -12,6 +11,10 @@ pages:
     - raco pkg install --auto --no-setup frog rosette
   script:
     - make site
+  
+pages:
+  extends: build-site
+  stage: deploy
   artifacts:
     paths:
     - public
