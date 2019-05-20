@@ -11,6 +11,10 @@ build-site:
     - raco pkg install --auto --no-setup frog rosette
   script:
     - make site
+  cache:
+    key: racket-73
+    paths:
+      - $RACKET_DIR
   
 pages:
   extends: build-site
@@ -20,9 +24,5 @@ pages:
     - public
   only:
     - master
-  cache:
-    key: racket-73
-    paths:
-      - $RACKET_DIR
 
   
