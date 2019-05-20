@@ -2,10 +2,9 @@
 
 site: clean
 	raco frog -b
-	cp -Rv js/ css/ site/
-	cp img/favicon.png site/
-	cp img/racket-news-500w.png site/logo.png
-	echo 'racket-news.com' > site/CNAME
+	cp -Rv js/ css/ public/
+	cp img/favicon.png public/
+	cp img/racket-news-500w.png public/logo.png
 
 lgtm:
 	git checkout production
@@ -14,5 +13,5 @@ lgtm:
 	git checkout master
 
 clean:
-	rm -Rf site/
+	rm -Rf public/
 
