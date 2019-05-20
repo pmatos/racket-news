@@ -9,6 +9,7 @@ build-site:
     - if [ ! -d $RACKET_DIR ]; then git clone https://github.com/greghendershott/travis-racket.git && cat travis-racket/install-racket.sh | bash;  fi
     - export PATH="${RACKET_DIR}/bin:${PATH}" #install-racket.sh can't set for us
     - raco pkg install --auto --no-setup frog rosette
+    - raco setup -D frog
   script:
     - make site
   cache:
