@@ -6,7 +6,7 @@ pages:
     RACKET_VERSION: "7.3"
     RACKET_DIR: $CI_PROJECT_DIR/install
   before_script:
-    - apt-get update && apt-get install -y make git curl python-pygments libglib2.0-0 libfontconfig1 libcairo2 libturbojpeg0
+    - apt-get update && apt-get install -y make git curl python-pygments libglib2.0-0 libfontconfig1 libcairo2 libturbojpeg0 libpango-1.0-0
     - if [ ! -d $RACKET_DIR ]; then git clone https://github.com/greghendershott/travis-racket.git && cat travis-racket/install-racket.sh | bash;  fi
     - export PATH="${RACKET_DIR}/bin:${PATH}" #install-racket.sh can't set for us
     - raco pkg install --auto frog rosette
