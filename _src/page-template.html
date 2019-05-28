@@ -93,7 +93,12 @@
         <div class="col-lg-8 col-md-10 mx-auto">
 	  @(when (string-ci=? uri-path (string-append uri-prefix "/index.html"))
 	  @list{
-		
+	  <form id="donateform" action="https://racket-lang.org/sfc.html">
+	    <input type="submit"
+		   title="Donate to the development of the Racket language through the Software Freedom Conservancy"
+		   alt="Donate to the development of the Racket language through the Software Freedom Conservancy"
+		   value="Donate to Racket" />
+	  </form>
 	  <!-- Begin Mailchimp Signup Form -->
           <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
           <style type="text/css">
