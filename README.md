@@ -16,7 +16,8 @@
 12. remix by Jay McCarthy
 13. Turnstile by Stephen Chang, Alex Knauth, Ben Greenman, Milo Turner, and Michael Ballantyne
 14. Pollen by Matthew Butterick
-15.
+15. Typed Racket By the Racket team
+16.
 
 ## Featured Papers
 
@@ -30,4 +31,5 @@
 12. Rebuilding Racket on Chez Scheme (Experience Report) by Matthew Flatt, Caner Derici, R. Kent Dybvig, Andrew W. Keep, Gustavo E. Massaccesi, Sam Tobin-Hochstadt and Jon Zeppieri
 13. Honu: Syntactic Extension for Algebraic Notation through Enforestation by Jon Rafkind and Matthew Flatt
 14. Precise Garbage Collection for C by Jon Rafkind, Adam Wick, John Regerh and Matthew Flatt
-15.
+15. Reaching Python from Racket by Pedro Ramos and António Leitão
+16. 
