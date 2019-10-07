@@ -35,5 +35,5 @@
 14. Precise Garbage Collection for C by Jon Rafkind, Adam Wick, John Regerh and Matthew Flatt
 15. Reaching Python from Racket by Pedro Ramos and António Leitão
 16. Foreign Interface for PLT Scheme by Eli Barzilay and Dmitry Orlovsky
-17. 
+17. Syntax Templates in Racket by Ryan Culpepper
 18. 
