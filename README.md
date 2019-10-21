@@ -19,7 +19,8 @@
 15. Typed Racket By the Racket team
 16. Racket Mode for Emacs by Greg Hendershott
 17. Overscan by Mark Wunsch
-18. 
+18. dynamic-ffi by David Benoit
+19. 
 
 ## Featured Papers
 
@@ -36,4 +37,5 @@
 15. Reaching Python from Racket by Pedro Ramos and António Leitão
 16. Foreign Interface for PLT Scheme by Eli Barzilay and Dmitry Orlovsky
 17. Syntax Templates in Racket by Ryan Culpepper
-18. 
+18. Oh Lord, Please Don’t Let Contracts Be Misunderstood (Functional Pearl) by Christos Dimoulas, Max S. New, Robert Bruce Findler, Matthias Felleisen 
+19. 
