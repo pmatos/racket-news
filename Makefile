@@ -5,6 +5,7 @@ site: clean
 	cp -Rv js/ css/ public/
 	cp img/favicon.png public/
 	cp img/racket-news-500w.png public/logo.png
+	find public/ -type f 
 
 lgtm:
 	git checkout production
