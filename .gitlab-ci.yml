@@ -1,9 +1,6 @@
 .build-site:
-  image: jackfirth/racket:7.4-cs-full
+  image: jackfirth/racket:7.4-full
   variables:
-    RACKET_VERSION: "7.4"
-    RACKET_DIR: $CI_PROJECT_DIR/install
-    RACKET_MINIMAL: 1
   before_script:
     - raco pkg install --auto --no-setup frog rosette
     - raco setup -D frog rosette
