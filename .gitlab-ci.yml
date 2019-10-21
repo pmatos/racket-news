@@ -2,7 +2,7 @@ image: debian:stable-slim
 
 .build-site:
   variables:
-    RACKET_VERSION: "7.3"
+    RACKET_VERSION: "7.4"
     RACKET_DIR: $CI_PROJECT_DIR/install
     RACKET_MINIMAL: 1
   before_script:
@@ -14,7 +14,7 @@ image: debian:stable-slim
   script:
     - make site
   cache:
-    key: racket-73
+    key: racket-74
     paths:
       - $RACKET_DIR
   
