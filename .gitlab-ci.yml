@@ -1,23 +1,15 @@
-image: debian:stable-slim
-
 .build-site:
+  image: jackfirth/racket:7.4-cs-full
   variables:
     RACKET_VERSION: "7.4"
     RACKET_DIR: $CI_PROJECT_DIR/install
     RACKET_MINIMAL: 1
   before_script:
-    - apt-get update && apt-get install -y make git curl python-pygments 
-    - if [ ! -d $RACKET_DIR ]; then git clone https://github.com/greghendershott/travis-racket.git && cat travis-racket/install-racket.sh | bash;  fi
-    - export PATH="${RACKET_DIR}/bin:${PATH}" #install-racket.sh can't set for us
     - raco pkg install --auto --no-setup frog rosette
-    - raco setup -D frog
+    - raco setup -D frog rosette
   script:
     - make site
-  cache:
-    key: racket-74
-    paths:
-      - $RACKET_DIR
-  
+
 pages:
   extends: .build-site
   stage: deploy
