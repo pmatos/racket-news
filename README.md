@@ -20,7 +20,8 @@
 16. Racket Mode for Emacs by Greg Hendershott
 17. Overscan by Mark Wunsch
 18. dynamic-ffi by David Benoit
-19. 
+19. Herbie by  Pavel Panchekha, Alex Sanchez-Stern, David Thien, Zachary Tatlock, Jason Qiu, Jack Firth, and James R. Wilcox.
+20. 
 
 ## Featured Papers
 
@@ -38,4 +39,5 @@
 16. Foreign Interface for PLT Scheme by Eli Barzilay and Dmitry Orlovsky
 17. Syntax Templates in Racket by Ryan Culpepper
 18. Oh Lord, Please Don’t Let Contracts Be Misunderstood (Functional Pearl) by Christos Dimoulas, Max S. New, Robert Bruce Findler, Matthias Felleisen 
-19. 
+19. Binding as Sets of Scopes by Matthew Flatt
+20. 
