@@ -23,7 +23,8 @@
 19. Herbie by  Pavel Panchekha, Alex Sanchez-Stern, David Thien, Zachary Tatlock, Jason Qiu, Jack Firth, and James R. Wilcox.
 20. Marionette by Bogdan Popa
 21. charterm by Neil van Dyke
-22.
+22. Riposte by Jesse Alama
+23. 
 
 ## Featured Papers
 
@@ -44,4 +45,5 @@
 19. Binding as Sets of Scopes by Matthew Flatt
 20. Option Contracts by Christos Dimoulas, Robert Bruce Findler, and Matthias Felleisen
 21. FrTime: Functional Reactive Programming in PLT Scheme by Gregory Cooper and Shriram Krishnamurthi
-22. 
+22. The Design and Implementation of Typed Scheme by Sam Tobin-Hochstadt and Matthias Felleisen
+23. 
