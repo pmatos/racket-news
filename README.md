@@ -25,7 +25,8 @@
 21. charterm by Neil van Dyke
 22. Riposte by Jesse Alama
 23. contract-profile by the Racket team
-24.
+24. Terminal Phase by Christopher Lemmer Webber
+25.
 
 ## Featured Papers
 
@@ -48,4 +49,5 @@
 21. FrTime: Functional Reactive Programming in PLT Scheme by Gregory Cooper and Shriram Krishnamurthi
 22. The Design and Implementation of Typed Scheme by Sam Tobin-Hochstadt and Matthias Felleisen
 23. From Macros to DSLs: The Evolution of Racket by Ryan Culpepper, Matthias Felleisen, Matthew Flatt, and Shriram Krishnamurthi
-24. 
+24. How to evaluate the performance of gradual type systems, by BEN GREENMAN, ASUMU TAKIKAWA, MAX S. NEW, DANIEL FELTEY, ROBERT BRUCE FINDLER, JAN VITEK and MATTHIAS FELLEISEN
+25. 
