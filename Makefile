@@ -7,6 +7,7 @@ site: clean
 	cp img/racket-news-500w.png public/logo.png
 	cp -Rv img/issue21 public/img
 	cp -Rv img/issue23 public/img
+	cp -Rv img/issue25 public/img
 	find public/ -type f 
 
 lgtm:

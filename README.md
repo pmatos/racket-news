@@ -26,7 +26,8 @@
 22. Riposte by Jesse Alama
 23. contract-profile by the Racket team
 24. Terminal Phase by Christopher Lemmer Webber
-25.
+25. Polyglot by Sage Gerard
+26. 
 
 ## Featured Papers
 
@@ -44,10 +45,13 @@
 16. Foreign Interface for PLT Scheme by Eli Barzilay and Dmitry Orlovsky
 17. Syntax Templates in Racket by Ryan Culpepper
 18. Oh Lord, Please Don’t Let Contracts Be Misunderstood (Functional Pearl) by Christos Dimoulas, Max S. New, Robert Bruce Findler, Matthias Felleisen 
-19. Binding as Sets of Scopes by Matthew Flatt
+19. Bindings as Sets of Scopes by Matthew Flatt
 20. Option Contracts by Christos Dimoulas, Robert Bruce Findler, and Matthias Felleisen
 21. FrTime: Functional Reactive Programming in PLT Scheme by Gregory Cooper and Shriram Krishnamurthi
 22. The Design and Implementation of Typed Scheme by Sam Tobin-Hochstadt and Matthias Felleisen
 23. From Macros to DSLs: The Evolution of Racket by Ryan Culpepper, Matthias Felleisen, Matthew Flatt, and Shriram Krishnamurthi
 24. How to evaluate the performance of gradual type systems, by BEN GREENMAN, ASUMU TAKIKAWA, MAX S. NEW, DANIEL FELTEY, ROBERT BRUCE FINDLER, JAN VITEK and MATTHIAS FELLEISEN
-25. 
+25. Scribble: closing the book on ad hoc documentation tools, by Matthew Flatt, Eli Barzilay and Robert Bruce Findler
+-- TO COME
+26. Compilable and Composable Macros, You Want it When?
+27. Submodules in Racket: You Want it When, Again?
