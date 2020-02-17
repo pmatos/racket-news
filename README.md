@@ -27,7 +27,9 @@
 23. contract-profile by the Racket team
 24. Terminal Phase by Christopher Lemmer Webber
 25. Polyglot by Sage Gerard
-26. 
+26. RacketScript by Vishesh Yadav
+-- TO COME
+27. Racket CAS by Jens Axel Soegaard
 
 ## Featured Papers
 
@@ -52,6 +54,7 @@
 23. From Macros to DSLs: The Evolution of Racket by Ryan Culpepper, Matthias Felleisen, Matthew Flatt, and Shriram Krishnamurthi
 24. How to evaluate the performance of gradual type systems, by BEN GREENMAN, ASUMU TAKIKAWA, MAX S. NEW, DANIEL FELTEY, ROBERT BRUCE FINDLER, JAN VITEK and MATTHIAS FELLEISEN
 25. Scribble: closing the book on ad hoc documentation tools, by Matthew Flatt, Eli Barzilay and Robert Bruce Findler
+26. Composable and Compilable Macros: You Want it When? by Matthew Flatt
 -- TO COME
-26. Compilable and Composable Macros, You Want it When?
 27. Submodules in Racket: You Want it When, Again?
+28.
