@@ -1,5 +1,9 @@
 image: debian:stable-slim
 
+stages:
+  - deploy
+  - remember
+
 .build-site:
   variables:
     RACKET_VERSION: "7.3"
@@ -27,4 +31,16 @@ pages:
   only:
     - master
 
+rememberme:
+  image: alpine:latest
+  stage: remember
+
+  needs:
+    - job: pages
+      artifacts: true
+      
+  before_script:
+    - apk add curl
+  scripts:
+    - ./rememberme.sh
   
