@@ -1,12 +1,8 @@
 image: debian:stable-slim
 
-stages:
-  - deploy
-  - remember
-
 .build-site:
   variables:
-    RACKET_VERSION: "7.3"
+    RACKET_VERSION: "7.6"
     RACKET_DIR: $CI_PROJECT_DIR/install
     RACKET_MINIMAL: 1
   before_script:
@@ -17,6 +13,7 @@ stages:
     - raco setup -D frog
   script:
     - make site
+    - ./rememberme.sh
   cache:
     key: racket-73
     paths:
@@ -31,15 +28,4 @@ pages:
   only:
     - master
 
-rememberme:
-  stage: remember
-
-  needs:
-    - job: pages
-      artifacts: true
-      
-  before_script:
-    - apt-get update && apt-get install -y curl
-  scripts:
-    - ./rememberme.sh
   
