@@ -29,7 +29,6 @@
 25. Polyglot by Sage Gerard
 26. RacketScript by Vishesh Yadav
 27. Cover by Spencer Florence
--- TO COME
 28. Racket CAS by Jens Axel Soegaard
 
 ## Featured Papers
@@ -57,4 +56,4 @@
 25. Scribble: closing the book on ad hoc documentation tools, by Matthew Flatt, Eli Barzilay and Robert Bruce Findler
 26. Composable and Compilable Macros: You Want it When? by Matthew Flatt
 27. Submodules in Racket: You Want it When, Again? by Matthew Flatt
-28.
+28. Feature-Specific Profiling by Leif Andersen, Vincent St-Amour, Jan Vitek and Matthias Felleisen
