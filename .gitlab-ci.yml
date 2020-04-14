@@ -2,7 +2,7 @@ image: debian:stable-slim
 
 .build-site:
   variables:
-    RACKET_VERSION: "7.6"
+    RACKET_VERSION: "7.5"
     RACKET_DIR: $CI_PROJECT_DIR/install
     RACKET_MINIMAL: 1
   before_script:
