@@ -30,6 +30,7 @@
 26. RacketScript by Vishesh Yadav
 27. Cover by Spencer Florence
 28. Racket CAS by Jens Axel Soegaard
+29. Deta by Bodgan Popa
 
 ## Featured Papers
 
@@ -57,3 +58,4 @@
 26. Composable and Compilable Macros: You Want it When? by Matthew Flatt
 27. Submodules in Racket: You Want it When, Again? by Matthew Flatt
 28. Feature-Specific Profiling by Leif Andersen, Vincent St-Amour, Jan Vitek and Matthias Felleisen
+29. Towards Practical Gradual Typing by Asumu Takikawa, Daniel Felty, Earl Dean, Matthew Flatt, Robert Bruce Findler, Sam Tobin-Hochstadt and Matthias Felleisen.
