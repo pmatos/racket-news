@@ -4,7 +4,6 @@ image: debian:stable-slim
   variables:
     RACKET_VERSION: "7.5"
     RACKET_DIR: $CI_PROJECT_DIR/install
-    RACKET_MINIMAL: 1
   before_script:
     - apt-get update && apt-get install -y make git curl python-pygments 
     - if [ ! -d $RACKET_DIR ]; then git clone https://github.com/greghendershott/travis-racket.git && cat travis-racket/install-racket.sh | bash;  fi
