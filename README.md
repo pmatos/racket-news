@@ -32,6 +32,10 @@
 28. Racket CAS by Jens Axel Soegaard
 29. Deta by Bodgan Popa
 30. Heresy by Annaia Danvers
+31. Disposable by Jack Firth
+--
+32. Disassemble by Sam Tobin-Hochstadt
+33. Gregor by Jon Zeppieri
 
 ## Featured Papers
 
@@ -61,5 +65,4 @@
 28. Feature-Specific Profiling by Leif Andersen, Vincent St-Amour, Jan Vitek and Matthias Felleisen
 29. Towards Practical Gradual Typing by Asumu Takikawa, Daniel Felty, Earl Dean, Matthew Flatt, Robert Bruce Findler, Sam Tobin-Hochstadt and Matthias Felleisen
 30. Typing the Numeric Tower, by Vincent St-Amour, Sam Tobin-Hochstadt, Matthew Flatt, and Matthias Felleisen
-----
 31. Bithoven - Gödel Encoding of Chamber Music and Functional 8-Bit Audio Synthesis, by Jay McCarthy
