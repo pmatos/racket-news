@@ -1,7 +1,7 @@
 .PHONY: site clean lgtm
 
 site: clean
-	raco frog -b
+	raco darwin -b
 	cp -Rv js/ css/ public/
 	cp img/favicon.png public/
 	cp img/racket-news-500w.png public/logo.png
