@@ -35,8 +35,9 @@
 31. Disposable by Jack Firth
 32. XSmith by William Hatch and Eric Eeide
 33. Disassemble by Sam Tobin-Hochstadt
+35. Cassius by Pavel Panchekha, Adam Timothy Geller, Shoaib Kamil, Michael Ernst, Zachary Tatlock, and Emina Torlak
 --
-34. Gregor by Jon Zeppieri
+35. Gregor by Jon Zeppieri
 
 ## Featured Papers
 
@@ -69,3 +70,4 @@
 31. Bithoven - Gödel Encoding of Chamber Music and Functional 8-Bit Audio Synthesis, by Jay McCarthy
 32. Sham: A DSL for Fast DSLs, by Rajan Walia, Chung-Chieh Shan, and Sam Tobin-Hochstadt
 33. Super 8 Languages for Making Movies (Functional Pearl) by Leif Andersen, Stephen Chang, Matthias Felleisen
+34. Automated Reasoning for Web Page Layout by Pavel Panchekha and Emina Torlak
