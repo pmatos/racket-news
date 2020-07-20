@@ -13,6 +13,3 @@ for html in `find public -name '*.html'`; do
     echo "Remembering $url"
     echo "    Response: $response"
 done
-
-sleep 60
-curl -s --request GET https://web.archive.org/save/https://racket-news.com
