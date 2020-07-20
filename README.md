@@ -35,8 +35,7 @@
 31. Disposable by Jack Firth
 32. XSmith by William Hatch and Eric Eeide
 33. Disassemble by Sam Tobin-Hochstadt
-35. Cassius by Pavel Panchekha, Adam Timothy Geller, Shoaib Kamil, Michael Ernst, Zachary Tatlock, and Emina Torlak
---
+34. Cassius by Pavel Panchekha, Adam Timothy Geller, Shoaib Kamil, Michael Ernst, Zachary Tatlock, and Emina Torlak
 35. Gregor by Jon Zeppieri
 
 ## Featured Papers
@@ -71,3 +70,4 @@
 32. Sham: A DSL for Fast DSLs, by Rajan Walia, Chung-Chieh Shan, and Sam Tobin-Hochstadt
 33. Super 8 Languages for Making Movies (Functional Pearl) by Leif Andersen, Stephen Chang, Matthias Felleisen
 34. Automated Reasoning for Web Page Layout by Pavel Panchekha and Emina Torlak
+35. Compiler and Runtime Support for Continuation Marks by Matthew Flatt and Kent Dybvig
