@@ -26,7 +26,11 @@ jobs:
       - run: ./rememberme.sh
       - run: |
           mkdir /root/.ssh
-          echo ${{ secrets.SSH_PRIVATE_KEY }} > /root/.ssh/id_rsa
-          echo ${{ secrets.SSH_PUBLIC_KEY }} > /root/.ssh/id_rsa.pub
+          cat > /root/.ssh/id_rsa << EOF
+          ${{ secrets.SSH_PRIVATE_KEY }}
+          EOF
+          echo > /root/.ssh/id_rsa.pub << EOF
+          ${{ secrets.SSH_PUBLIC_KEY }}
+          EOF
       - run: ssh root@racket-news.com echo "Hello RN!"
       - run: rsync -avz --delete public/ root@racket-news.com:/var/www/racket-news.com/
