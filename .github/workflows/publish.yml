@@ -29,7 +29,7 @@ jobs:
           cat > /root/.ssh/id_rsa << EOF
           ${{ secrets.SSH_PRIVATE_KEY }}
           EOF
-          echo > /root/.ssh/id_rsa.pub << EOF
+          cat > /root/.ssh/id_rsa.pub << EOF
           ${{ secrets.SSH_PUBLIC_KEY }}
           EOF
       - run: ssh root@racket-news.com echo "Hello RN!"
