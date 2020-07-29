@@ -24,13 +24,15 @@ jobs:
           packages: 'darwin, rosette'
       - run: make site
       - run: ./rememberme.sh
-      - run: |
+      - name: Save ssh keys
+        env:
+          PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          PUBLIC_KEY: ${{ secrets.SSH_PUBLIC_KEY }}
+        run: |
           mkdir /root/.ssh
-          cat > /root/.ssh/id_rsa << EOF
-          ${{ secrets.SSH_PRIVATE_KEY }}
-          EOF
-          cat > /root/.ssh/id_rsa.pub << EOF
-          ${{ secrets.SSH_PUBLIC_KEY }}
-          EOF
+          echo "$PRIVATE_KEY" > /root/.ssh/id_rsa
+          echo "$PUBLIC_KEY" > /root/.ssh/id_rsa.pub
+          chmod 644 /root/.ssh/id_rsa
+          chmod 644 /root/.ssh/id_rsa.pub
       - run: ssh root@racket-news.com echo "Hello RN!"
       - run: rsync -avz --delete public/ root@racket-news.com:/var/www/racket-news.com/
