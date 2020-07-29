@@ -34,5 +34,6 @@ jobs:
           echo "$PUBLIC_KEY" > /root/.ssh/id_rsa.pub
           chmod 644 /root/.ssh/id_rsa
           chmod 644 /root/.ssh/id_rsa.pub
+          sha1sum /root/.ssh/*
       - run: ssh root@racket-news.com echo "Hello RN!"
       - run: rsync -avz --delete public/ root@racket-news.com:/var/www/racket-news.com/
