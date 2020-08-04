@@ -20,7 +20,7 @@
 16. Racket Mode for Emacs by Greg Hendershott
 17. Overscan by Mark Wunsch
 18. dynamic-ffi by David Benoit
-19. Herbie by  Pavel Panchekha, Alex Sanchez-Stern, David Thien, Zachary Tatlock, Jason Qiu, Jack Firth, and James R. Wilcox.
+19. Herbie by Pavel Panchekha, Alex Sanchez-Stern, David Thien, Zachary Tatlock, Jason Qiu, Jack Firth, and James R. Wilcox.
 20. Marionette by Bogdan Popa
 21. charterm by Neil van Dyke
 22. Riposte by Jesse Alama
@@ -37,6 +37,7 @@
 33. Disassemble by Sam Tobin-Hochstadt
 34. Cassius by Pavel Panchekha, Adam Timothy Geller, Shoaib Kamil, Michael Ernst, Zachary Tatlock, and Emina Torlak
 35. Gregor by Jon Zeppieri
+36. zcpkg by Sage Gerard
 
 ## Featured Papers
 
@@ -71,3 +72,4 @@
 33. Super 8 Languages for Making Movies (Functional Pearl) by Leif Andersen, Stephen Chang, Matthias Felleisen
 34. Automated Reasoning for Web Page Layout by Pavel Panchekha and Emina Torlak
 35. Compiler and Runtime Support for Continuation Marks by Matthew Flatt and Kent Dybvig
+36. Hygienic Macro Expansion by Eugene Kohlbecker, Daniel P. Friedman, Matthias Felleisen and Bruce Duba
