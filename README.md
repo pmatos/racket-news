@@ -38,6 +38,7 @@
 34. Cassius by Pavel Panchekha, Adam Timothy Geller, Shoaib Kamil, Michael Ernst, Zachary Tatlock, and Emina Torlak
 35. Gregor by Jon Zeppieri
 36. zcpkg by Sage Gerard
+37. binaryio by Ryan Culpepper
 
 ## Featured Papers
 
@@ -73,3 +74,8 @@
 34. Automated Reasoning for Web Page Layout by Pavel Panchekha and Emina Torlak
 35. Compiler and Runtime Support for Continuation Marks by Matthew Flatt and Kent Dybvig
 36. Hygienic Macro Expansion by Eugene Kohlbecker, Daniel P. Friedman, Matthias Felleisen and Bruce Duba
+37. Languages as Libraries by Sam Tobin-Hochstadt, Vincent St-Amour, Ryan Culpepper, Matthew Flatt, and Matthias Felleisen.
+
+## Call to Racket Champions
+
+37. Jesse Alama
