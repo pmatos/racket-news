@@ -39,6 +39,7 @@
 35. Gregor by Jon Zeppieri
 36. zcpkg by Sage Gerard
 37. binaryio by Ryan Culpepper
+38. quickscript by Laurent Orseau
 
 ## Featured Papers
 
@@ -78,4 +79,6 @@
 
 ## Call to Racket Champions
 
-37. Jesse Alama - https://github.com/racket/racket/commit/b722d810592dbfa1a668bf24eefce29d2773a0f2
+37. #3336 Jesse Alama - https://github.com/racket/racket/commit/b722d810592dbfa1a668bf24eefce29d2773a0f2
+38. #1400 Nobody
+39. #2314
