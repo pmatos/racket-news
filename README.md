@@ -41,7 +41,8 @@
 37. binaryio by Ryan Culpepper
 38. quickscript by Laurent Orseau
 39. Redex by Robert Bruce Findler, Casey Klein, Burke Fetscher, and Matthias Felleisen
-40. 
+40. Plot by Neil Toronto
+41.
 
 ## Featured Papers
 
@@ -80,11 +81,14 @@
 37. Languages as Libraries by Sam Tobin-Hochstadt, Vincent St-Amour, Ryan Culpepper, Matthew Flatt, and Matthias Felleisen
 38. Hygienic Macro Technology, by William Clinger and Mitchell Wand
 39. Profiling For Laziness, by Stephen Chang and Matthias Felleisen
-40. 
+40. Corpse Reviver: Sound and Efficient Gradual Typing via Contract Verification by Cameron Moy, Phuc C. Nguyen, Sam Tobin-Hochstadt, David van Horn
+41. 
 
 ## Call to Racket Champions
 
 36. #3336 Jesse Alama - https://github.com/racket/racket/commit/b722d810592dbfa1a668bf24eefce29d2773a0f2
 37. #1400 Nobody
 38. #2314 `xxyzz` - https://github.com/racket/racket/commit/659741bb5852d23ed6359ff420cb3db7f38d34cb
-39. #3161 
+39. #3161 Nobody
+40. #3161
+41.
