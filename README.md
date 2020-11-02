@@ -42,7 +42,7 @@
 38. quickscript by Laurent Orseau
 39. Redex by Robert Bruce Findler, Casey Klein, Burke Fetscher, and Matthias Felleisen
 40. Plot by Neil Toronto
-41.
+41. Futures Visualizer by the Racket team
 
 ## Featured Papers
 
@@ -82,7 +82,7 @@
 38. Hygienic Macro Technology, by William Clinger and Mitchell Wand
 39. Profiling For Laziness, by Stephen Chang and Matthias Felleisen
 40. Corpse Reviver: Sound and Efficient Gradual Typing via Contract Verification by Cameron Moy, Phuc C. Nguyen, Sam Tobin-Hochstadt, David van Horn
-41. 
+41. Rash: form reckless interactions to reliable programs, by William Hatch, and Matthew Flatt
 
 ## Call to Racket Champions
 
@@ -90,5 +90,5 @@
 37. #1400 Nobody
 38. #2314 `xxyzz` - https://github.com/racket/racket/commit/659741bb5852d23ed6359ff420cb3db7f38d34cb
 39. #3161 Nobody
-40. #3161
-41.
+40. #3161 Walter Yang - https://github.com/racket/racket/commit/62f444d4e13f3a59f59d22f7fee70de63140e7b7
+41. #813 (racket/typed-racket)
