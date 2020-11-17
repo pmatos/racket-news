@@ -43,6 +43,7 @@
 39. Redex by Robert Bruce Findler, Casey Klein, Burke Fetscher, and Matthias Felleisen
 40. Plot by Neil Toronto
 41. Futures Visualizer by the Racket team
+42. Koyo by Bogdan Popa
 
 ## Featured Papers
 
@@ -83,6 +84,8 @@
 39. Profiling For Laziness, by Stephen Chang and Matthias Felleisen
 40. Corpse Reviver: Sound and Efficient Gradual Typing via Contract Verification by Cameron Moy, Phuc C. Nguyen, Sam Tobin-Hochstadt, David van Horn
 41. Rash: form reckless interactions to reliable programs, by William Hatch, and Matthew Flatt
+42. 
+43. Macros for Domain-Specific Languages by Michael Ballantyne, Alexis King, and Matthias Felleisen.
 
 ## Call to Racket Champions
 
@@ -92,3 +95,4 @@
 39. #3161 Nobody
 40. #3161 Walter Yang - https://github.com/racket/racket/commit/62f444d4e13f3a59f59d22f7fee70de63140e7b7
 41. #813 (racket/typed-racket)
+42. #813 (racket/typed-racket)
