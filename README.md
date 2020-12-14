@@ -44,6 +44,7 @@
 40. Plot by Neil Toronto
 41. Futures Visualizer by the Racket team
 42. Koyo by Bogdan Popa
+43. Urlang by Jens Axel Soegaard
 
 ## Featured Papers
 
@@ -84,8 +85,11 @@
 39. Profiling For Laziness, by Stephen Chang and Matthias Felleisen
 40. Corpse Reviver: Sound and Efficient Gradual Typing via Contract Verification by Cameron Moy, Phuc C. Nguyen, Sam Tobin-Hochstadt, David van Horn
 41. Rash: form reckless interactions to reliable programs, by William Hatch, and Matthew Flatt
-42. 
+42. Adding Interactive Visual Syntax to Textual Code by Leif Andersen, Michael Ballantyne, and Matthias Felleisen.
 43. Macros for Domain-Specific Languages by Michael Ballantyne, Alexis King, and Matthias Felleisen.
+-- 
+44. Profile-Guided Meta-Programming, PLDI 2015. William Bowman https://github.com/wilbowma/pgmp
+
 
 ## Call to Racket Champions
 
@@ -94,5 +98,6 @@
 38. #2314 `xxyzz` - https://github.com/racket/racket/commit/659741bb5852d23ed6359ff420cb3db7f38d34cb
 39. #3161 Nobody
 40. #3161 Walter Yang - https://github.com/racket/racket/commit/62f444d4e13f3a59f59d22f7fee70de63140e7b7
-41. #813 (racket/typed-racket)
-42. #813 (racket/typed-racket)
+41. #813 (racket/typed-racket) Nobody
+42. #813 (racket/typed-racket) Lîm Tsú-thuàn - https://github.com/racket/typed-racket/pull/999/commits/3bb70c405c1ba864e1e05a2f8424907c4fb453d9
+43. Hiatus
