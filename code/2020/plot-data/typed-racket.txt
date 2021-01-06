@@ -3,78 +3,78 @@ Year begins: Wed Jan 01 2020 01:00:00 GMT+0100
 Analysis range: Wed Jan 01 2020 01:00:00 GMT+0100 - Sat Feb 01 2020 01:00:00 GMT+0100
 Repo typed-racket
 # Commits: 9
-Issues: 4/1/209
-PRs: 6/7/13
+Issues: 4/1/218
+PRs: 6/7/16
 Analyzing repositories for the month of 2, 2020
 Year begins: Wed Jan 01 2020 01:00:00 GMT+0100
 Analysis range: Sat Feb 01 2020 01:00:00 GMT+0100 - Sun Mar 01 2020 01:00:00 GMT+0100
 Repo typed-racket
 # Commits: 4
-Issues: 2/1/210
-PRs: 3/2/13
+Issues: 2/1/219
+PRs: 3/2/17
 Analyzing repositories for the month of 3, 2020
 Year begins: Wed Jan 01 2020 01:00:00 GMT+0100
 Analysis range: Sun Mar 01 2020 01:00:00 GMT+0100 - Wed Apr 01 2020 01:00:00 GMT+0200
 Repo typed-racket
 # Commits: 3
-Issues: 1/0/211
-PRs: 11/3/14
+Issues: 1/0/220
+PRs: 11/3/25
 Analyzing repositories for the month of 4, 2020
 Year begins: Wed Jan 01 2020 01:00:00 GMT+0100
 Analysis range: Wed Apr 01 2020 02:00:00 GMT+0200 - Fri May 01 2020 02:00:00 GMT+0200
 Repo typed-racket
 # Commits: 14
-Issues: 4/0/215
-PRs: 5/10/15
+Issues: 4/0/224
+PRs: 5/10/20
 Analyzing repositories for the month of 5, 2020
 Year begins: Wed Jan 01 2020 01:00:00 GMT+0100
 Analysis range: Fri May 01 2020 02:00:00 GMT+0200 - Mon Jun 01 2020 02:00:00 GMT+0200
 Repo typed-racket
 # Commits: 2
-Issues: 3/0/218
-PRs: 1/1/15
+Issues: 3/0/227
+PRs: 1/1/20
 Analyzing repositories for the month of 6, 2020
 Year begins: Wed Jan 01 2020 01:00:00 GMT+0100
 Analysis range: Mon Jun 01 2020 02:00:00 GMT+0200 - Wed Jul 01 2020 02:00:00 GMT+0200
 Repo typed-racket
 # Commits: 19
-Issues: 3/6/219
-PRs: 10/10/15
+Issues: 3/6/224
+PRs: 10/10/20
 Analyzing repositories for the month of 7, 2020
 Year begins: Wed Jan 01 2020 01:00:00 GMT+0100
 Analysis range: Wed Jul 01 2020 02:00:00 GMT+0200 - Sat Aug 01 2020 02:00:00 GMT+0200
 Repo typed-racket
 # Commits: 13
-Issues: 1/0/220
-PRs: 7/6/19
+Issues: 1/0/225
+PRs: 7/6/21
 Analyzing repositories for the month of 8, 2020
 Year begins: Wed Jan 01 2020 01:00:00 GMT+0100
 Analysis range: Sat Aug 01 2020 02:00:00 GMT+0200 - Tue Sep 01 2020 02:00:00 GMT+0200
 Repo typed-racket
 # Commits: 7
-Issues: 9/3/226
-PRs: 3/4/19
+Issues: 9/3/231
+PRs: 3/4/20
 Analyzing repositories for the month of 9, 2020
 Year begins: Wed Jan 01 2020 01:00:00 GMT+0100
 Analysis range: Tue Sep 01 2020 02:00:00 GMT+0200 - Thu Oct 01 2020 02:00:00 GMT+0200
 Repo typed-racket
 # Commits: 2
-Issues: 5/1/228
-PRs: 2/1/19
+Issues: 5/1/235
+PRs: 2/1/21
 Analyzing repositories for the month of 10, 2020
 Year begins: Wed Jan 01 2020 01:00:00 GMT+0100
 Analysis range: Thu Oct 01 2020 02:00:00 GMT+0200 - Sun Nov 01 2020 02:00:00 GMT+0100
 Repo typed-racket
 # Commits: 8
-Issues: 4/3/231
-PRs: 7/8/19
+Issues: 4/3/236
+PRs: 7/8/20
 Analyzing repositories for the month of 11, 2020
 Year begins: Wed Jan 01 2020 01:00:00 GMT+0100
 Analysis range: Sun Nov 01 2020 01:00:00 GMT+0100 - Tue Dec 01 2020 01:00:00 GMT+0100
 Repo typed-racket
 # Commits: 9
 Issues: 6/6/236
-PRs: 9/8/20
+PRs: 9/8/21
 Analyzing repositories for the month of 12, 2020
 Year begins: Wed Jan 01 2020 01:00:00 GMT+0100
 Analysis range: Tue Dec 01 2020 01:00:00 GMT+0100 - Fri Jan 01 2021 01:00:00 GMT+0100
