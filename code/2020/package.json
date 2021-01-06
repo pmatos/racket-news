@@ -1,0 +1,24 @@
+{
+  "name": "2020-utils",
+  "version": "1.0.0",
+  "description": "Racket News GitHub Statistics for 2020",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pmatos/racket-news.git"
+  },
+  "author": "Paulo Matos <pmatos@linki.tools>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/pmatos/racket-news/issues"
+  },
+  "homepage": "https://github.com/pmatos/racket-news",
+  "dependencies": {
+    "@octokit/plugin-throttling": "^2.7.0",
+    "@octokit/rest": "^16.34.1",
+    "moment": "^2.24.0"
+  }
+}

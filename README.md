@@ -45,6 +45,9 @@
 41. Futures Visualizer by the Racket team
 42. Koyo by Bogdan Popa
 43. Urlang by Jens Axel Soegaard
+44. crypto by Ryan Culpepper
+--
+45. ruckus
 
 ## Featured Papers
 
@@ -87,11 +90,13 @@
 41. Rash: form reckless interactions to reliable programs, by William Hatch, and Matthew Flatt
 42. Adding Interactive Visual Syntax to Textual Code by Leif Andersen, Michael Ballantyne, and Matthias Felleisen.
 43. Macros for Domain-Specific Languages by Michael Ballantyne, Alexis King, and Matthias Felleisen.
--- 
 44. Profile-Guided Meta-Programming, PLDI 2015. William Bowman https://github.com/wilbowma/pgmp
-
+--
+45. Parallel machine simulator using racket/scheme functional programming language (https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11718/117182N/Parallel-machine-simulator-using-racketscheme-functional-programming-language/10.1117/12.2572096.short?SSO=1)
 
 ## Call to Racket Champions
+
+### 2020
 
 36. #3336 Jesse Alama - https://github.com/racket/racket/commit/b722d810592dbfa1a668bf24eefce29d2773a0f2
 37. #1400 Nobody
@@ -101,3 +106,7 @@
 41. #813 (racket/typed-racket) Nobody
 42. #813 (racket/typed-racket) Lîm Tsú-thuàn - https://github.com/racket/typed-racket/pull/999/commits/3bb70c405c1ba864e1e05a2f8424907c4fb453d9
 43. Hiatus
+
+### 2021
+
+44. #3603

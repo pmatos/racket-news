@@ -1,0 +1,84 @@
+Analyzing repositories for the month of 1, 2020
+Year begins: Wed Jan 01 2020 01:00:00 GMT+0100
+Analysis range: Wed Jan 01 2020 01:00:00 GMT+0100 - Sat Feb 01 2020 01:00:00 GMT+0100
+Repo redex
+# Commits: 5
+Issues: 5/3/41
+PRs: 0/0/7
+Analyzing repositories for the month of 2, 2020
+Year begins: Wed Jan 01 2020 01:00:00 GMT+0100
+Analysis range: Sat Feb 01 2020 01:00:00 GMT+0100 - Sun Mar 01 2020 01:00:00 GMT+0100
+Repo redex
+# Commits: 2
+Issues: 0/0/41
+PRs: 0/0/7
+Analyzing repositories for the month of 3, 2020
+Year begins: Wed Jan 01 2020 01:00:00 GMT+0100
+Analysis range: Sun Mar 01 2020 01:00:00 GMT+0100 - Wed Apr 01 2020 01:00:00 GMT+0200
+Repo redex
+# Commits: 6
+Issues: 5/6/41
+PRs: 0/0/7
+Analyzing repositories for the month of 4, 2020
+Year begins: Wed Jan 01 2020 01:00:00 GMT+0100
+Analysis range: Wed Apr 01 2020 02:00:00 GMT+0200 - Fri May 01 2020 02:00:00 GMT+0200
+Repo redex
+# Commits: 1
+Issues: 0/0/41
+PRs: 0/0/7
+Analyzing repositories for the month of 5, 2020
+Year begins: Wed Jan 01 2020 01:00:00 GMT+0100
+Analysis range: Fri May 01 2020 02:00:00 GMT+0200 - Mon Jun 01 2020 02:00:00 GMT+0200
+Repo redex
+# Commits: 1
+Issues: 0/0/41
+PRs: 0/0/7
+Analyzing repositories for the month of 6, 2020
+Year begins: Wed Jan 01 2020 01:00:00 GMT+0100
+Analysis range: Mon Jun 01 2020 02:00:00 GMT+0200 - Wed Jul 01 2020 02:00:00 GMT+0200
+Repo redex
+# Commits: 5
+Issues: 2/3/41
+PRs: 0/1/7
+Analyzing repositories for the month of 7, 2020
+Year begins: Wed Jan 01 2020 01:00:00 GMT+0100
+Analysis range: Wed Jul 01 2020 02:00:00 GMT+0200 - Sat Aug 01 2020 02:00:00 GMT+0200
+Repo redex
+# Commits: 1
+Issues: 0/0/41
+PRs: 0/0/7
+Analyzing repositories for the month of 8, 2020
+Year begins: Wed Jan 01 2020 01:00:00 GMT+0100
+Analysis range: Sat Aug 01 2020 02:00:00 GMT+0200 - Tue Sep 01 2020 02:00:00 GMT+0200
+Repo redex
+# Commits: 3
+Issues: 2/2/41
+PRs: 0/0/7
+Analyzing repositories for the month of 9, 2020
+Year begins: Wed Jan 01 2020 01:00:00 GMT+0100
+Analysis range: Tue Sep 01 2020 02:00:00 GMT+0200 - Thu Oct 01 2020 02:00:00 GMT+0200
+Repo redex
+# Commits: 0
+Issues: 1/0/41
+PRs: 0/0/7
+Analyzing repositories for the month of 10, 2020
+Year begins: Wed Jan 01 2020 01:00:00 GMT+0100
+Analysis range: Thu Oct 01 2020 02:00:00 GMT+0200 - Sun Nov 01 2020 02:00:00 GMT+0100
+Repo redex
+# Commits: 2
+Issues: 1/0/42
+PRs: 0/0/7
+Analyzing repositories for the month of 11, 2020
+Year begins: Wed Jan 01 2020 01:00:00 GMT+0100
+Analysis range: Sun Nov 01 2020 01:00:00 GMT+0100 - Tue Dec 01 2020 01:00:00 GMT+0100
+Repo redex
+# Commits: 0
+Issues: 0/0/42
+PRs: 0/0/7
+Analyzing repositories for the month of 12, 2020
+Year begins: Wed Jan 01 2020 01:00:00 GMT+0100
+Analysis range: Tue Dec 01 2020 01:00:00 GMT+0100 - Fri Jan 01 2021 01:00:00 GMT+0100
+Repo redex
+# Commits: 10
+Issues: 0/2/42
+PRs: 0/2/7
