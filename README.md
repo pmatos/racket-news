@@ -46,8 +46,9 @@
 42. Koyo by Bogdan Popa
 43. Urlang by Jens Axel Soegaard
 44. crypto by Ryan Culpepper
+45. resyntax by Jack Firth
 --
-45. ruckus
+46. ruckus
 
 ## Featured Papers
 
@@ -91,8 +92,9 @@
 42. Adding Interactive Visual Syntax to Textual Code by Leif Andersen, Michael Ballantyne, and Matthias Felleisen.
 43. Macros for Domain-Specific Languages by Michael Ballantyne, Alexis King, and Matthias Felleisen.
 44. Profile-Guided Meta-Programming, PLDI 2015. William Bowman https://github.com/wilbowma/pgmp
+45. Programming Languages as Operating Systems (or Revenge of the Son of the Lisp Machine), by Matthew Flatt, Robert Findler, Shriram Krishnamurti, and Matthias Felleisen
 --
-45. Parallel machine simulator using racket/scheme functional programming language (https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11718/117182N/Parallel-machine-simulator-using-racketscheme-functional-programming-language/10.1117/12.2572096.short?SSO=1)
+46. Parallel machine simulator using racket/scheme functional programming language (https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11718/117182N/Parallel-machine-simulator-using-racketscheme-functional-programming-language/10.1117/12.2572096.short?SSO=1)
 
 ## Call to Racket Champions
 
