@@ -1,0 +1,31 @@
+(defrelease contract-parameter "Cameron Moy"
+  https://github.com/camoy/contract-parameter.git
+  "is a package that implements contract parameters that allow for dynamically bound contracts")
+
+(defrelease stream-etc "Cameron Moy"
+  https://github.com/camoy/stream-etc
+  "is a package with miscellaneous stream operations")
+
+(defrelease contract-etc "Cameron Moy"
+  https://github.com/camoy/contract-etc
+  "is a package with miscellaneous contract operations")
+
+(defrelease logic-programming 'silver-ag
+  https://github.com/silver-ag/logic-programming
+  "is a library that provides a prolog-like language that can be used within racket programs")
+
+(defrelease dollar "Roger Keays"
+  https://github.com/rogerkeays/racket-dollar
+  "is an example `#lang` extension which uses `$` instead of `,` for unquote")
+
+(defrelease qweather "Yanying Wang"
+  https://github.com/yanyingwang/qweather/
+  "is a Racket wrapper for Qweather")
+
+(defrelease r16 "Vincent Lee"
+  https://github.com/williewillus/r16/
+  "is a trick bot for Discord")
+
+(defrelease wavenet "Joel Dueck"
+  https://github.com/otherjoel/wavenet-api/
+  "is a Racket interface for the Google Cloud text-to-speech API")
