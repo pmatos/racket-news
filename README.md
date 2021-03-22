@@ -49,7 +49,9 @@
 45. resyntax by Jack Firth
 46. Argo by Jesse Alama
 47. Molis-Hai by John Clements
-48. Racket-cord
+48. Landau
+--
+49. Racket-cord
 
 ## Featured Papers
 
@@ -96,6 +98,7 @@
 45. Programming Languages as Operating Systems (or Revenge of the Son of the Lisp Machine), by Matthew Flatt, Robert Findler, Shriram Krishnamurti, and Matthias Felleisen
 46. Macros that Work Together - Compile-Time Bindings, Partial Expansion, and Definition Contexts by Matthew Flatt, Ryan Culpepper, David Darais, and Robert Findler
 47. Gradual typing for first-class classes by Asumu Takikawa, T. Stephen Strickland, Christos Dimoulas, Sam Tobin-Hochstadt, and Matthias Felleisen
+48. Fortifying Macros, Ryan Culpepper
 -- 
 Parallel machine simulator using racket/scheme functional programming language (https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11718/117182N/Parallel-machine-simulator-using-racketscheme-functional-programming-language/10.1117/12.2572096.short?SSO=1)
 
