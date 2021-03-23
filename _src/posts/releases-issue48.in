@@ -1,0 +1,35 @@
+(defrelease fluent "Roger Keays"
+  https://github.com/rogerkeays/racket-fluent
+  "is a library providing UNIX style pipes and a lambda shorthand syntax to make your Racket code more readable")
+
+(defrelease sexp-diff "Vincent StAmour and William Bowman"
+  https://github.com/stamourv/sexp-diff
+  "is a library to calculate a diff for sexps based on Levenshtein-like edit distance")
+
+(defrelease satore "Laurent Orseau"
+  https://github.com/deepmind/deepmind-research/tree/master/satore
+  "is a first-order logic resolution based theorem prover in CNF without equality, but with atom rewrite rules")
+
+(defrelease simple-obfuscation "Robby Findler"
+  https://github.com/rfindler/simple-obfuscation/
+  "is a library providing simple obfuscation")
+
+(defrelease mixfix "Sorawee Porncharoenwase"
+  https://github.com/sorawee/mixfix/
+  "is library that allows users to define and use mixfix operators in Racket")
+
+(defrelease sameday "Bodgan Popa"
+  https://github.com/Bogdanp/racket-sameday
+  "is a racket client for the [Sameday](https://sameday.ro/) API")
+
+(defrelease kittle-buffer "ZHUO Qingliang"
+  https://github.com/KDr2/kittle-buffer/
+  "is an extended brainf*ck implementation")
+
+(defrelease float32-lib "Brett Saiki"
+  https://github.com/bksaiki/float32-lib/
+  "is a library for single-precision floating point operations")
+
+(defrelease envlang "Suzanne Soy"
+  https://github.com/envlang/racket/
+  "is a prototype of a proof-of-concept for a language with first-class environments")
