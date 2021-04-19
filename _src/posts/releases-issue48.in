@@ -16,7 +16,7 @@
 
 (defrelease mixfix "Sorawee Porncharoenwase"
   https://github.com/sorawee/mixfix/
-  "is library that allows users to define and use mixfix operators in Racket")
+  "is a library that allows users to define and use mixfix operators in Racket")
 
 (defrelease sameday "Bodgan Popa"
   https://github.com/Bogdanp/racket-sameday
