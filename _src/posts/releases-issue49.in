@@ -1,0 +1,63 @@
+(defrelease scribble-minted "William Bowman"
+  https://github.com/wilbowma/scribble-minted
+  "is a scribble library for using pygmentize")
+
+(defrelease koyo-sessions-redis "Bogdan Popa"
+  https://github.com/Bogdanp/koyo-sessions-redis
+  "is a redis-based session store for Koyo")
+
+(defrelease resource-pool "Bogdan Popa"
+  https://github.com/Bogdanp/racket-resource-pool
+  "is a generic blocking resource pool")
+
+(defrelease codespells-live "Stephen Foster"
+  https://github.com/ldhandley/codespells-live
+  "is the language for interacting with the codespells Twitch stream")
+
+(defrelease intellij "`aymanosman`"
+  https://github.com/aymanosman/racket-intellij
+  "is wrapper adding support for IntelliJ editor features")
+
+(defrelease scramble "Ryan Culpepper"
+  https://github.com/rmculpepper/racket-scramble
+  "is an assorted utility libraries")
+
+(defrelease raco-pkg-env "Sam Phillips"
+  https://github.com/samdphillips/raco-pkg-env
+  "is a virtualenv like tool for Racket")
+
+(defrelease cbor "Vincent Lee"
+  https://github.com/williewillus/racket-rfc8949
+  "is a library that implements RFC 8949 (Concise Binary Object Representation) serialization routines for Racket")
+
+(defrelease irandom "`hkrish`"
+  https://github.com/hkrish/irandom
+  "is a implementation of Bob Jenkins' ISAAC pseudorandom number generator")
+
+(defrelease tabtree "Denis Shirshov"
+  https://github.com/prozion/tabtree
+  "is a library to handle files of Tabtree format")
+
+(defrelease odysseus "Denis Shirshov"
+  https://github.com/prozion/odysseus.git
+  "is a library with handy general-purpose functions and macro as well as specific ones")
+
+(defrelease basm "Graham Scheaffer"
+  https://gitlab.com/pythondude325/basm
+  "is an assembler for Buzz's Custom CPU project")
+
+(defrelease drracket-workspaces "Jason Chen"
+  https://github.com/stardust66/drracket-workspaces
+  "is a DrRacket tool that lets you save multiple files as a workspace and open them later all at once")
+
+(defrelease openapi-type-provider "Jason Chen"
+  https://github.com/stardust66/openapi-type-provider
+  "is a `typed/racket` type provider for OpenAPI schemas inspired by F# type providers")
+
+(defrelease on-macro "Siddhartha Kasivajhula"
+  https://github.com/countvajhula/on-macro
+  "is Racket's missing predicate language")
+
+(defrelease libsqlite3 "Bodgan Popa"
+  https://github.com/Bogdanp/racket-libsqlite3
+  "is a distribution for recent versions of sqlite3")
