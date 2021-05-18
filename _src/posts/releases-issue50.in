@@ -1,0 +1,27 @@
+(defrelease rbulkresizer "Maciej Barć"
+  https://gitlab.com/xgqt/rbulkresizer
+  "is a graphical bulk picture resize tool")
+
+(defrelease drracket-red "`jgentner1`"
+  https://github.com/jagen31/drracket-red
+  "is a VSCode Red Theme for DrRacket")
+
+(defrelease ionic "Siddhartha Kasivajhula"
+  https://github.com/countvajhula/ionic
+  "is a library providing another way to structure computations")
+
+(defrelease raco-cross "Matthew Flatt"
+  https://github.com/mflatt/raco-cross
+  "is a raco command to drive cross compilation")
+
+(defrelease syndicate-classic "Tony Garnock-Jones and Sam Caldwell"
+  https://github.com/tonyg/syndicate.git
+  "is the classical version (previous version of `#lang syndicate`) of syndicate - a language for interactive programs")
+
+(defrelease rktfetch "Maciej Barć and Ashley"
+  https://github.com/mythical-linux/rktfetch
+  "is an info fetch tool (like neofetch) but written in Racket")
+
+(defrelease graphite "Hazel Levine"
+  https://github.com/ralsei/graphite
+  "is a ggplot2-inspired data visualization library")
