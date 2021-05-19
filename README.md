@@ -51,6 +51,7 @@
 47. Molis-Hai by John Clements
 48. Landau
 49. Racket-cord
+50. Bookcover by Joel Dueck
 
 ## Featured Papers
 
@@ -99,6 +100,7 @@
 47. Gradual typing for first-class classes by Asumu Takikawa, T. Stephen Strickland, Christos Dimoulas, Sam Tobin-Hochstadt, and Matthias Felleisen
 48. Fortifying Macros, Ryan Culpepper
 49. Does blame shifting work? by Lukas Lazarek, Alexis King, Samanvitha Sundar, Robert Findler, and Christos Dimoulas
+50. Chaperones and Impersonators: Run-time Support for Reasonable Interposition, by T. Stephen Strickland, Sam Tobin-Hochstadt, Robert Bruce Findler, and Matthew Flatt
 -- 
 Parallel machine simulator using racket/scheme functional programming language (https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11718/117182N/Parallel-machine-simulator-using-racketscheme-functional-programming-language/10.1117/12.2572096.short?SSO=1)
 
@@ -122,3 +124,4 @@ Parallel machine simulator using racket/scheme functional programming language (
 46. #2883
 47. #2883 `xxyzz` - https://github.com/racket/racket/commit/c9956aceaeecb3be747c152c323b7010a371816b
 49. #29 (racket/pict)
+50. #29 (racket/pict)
