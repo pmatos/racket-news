@@ -52,6 +52,9 @@
 48. Landau
 49. Racket-cord
 50. Bookcover by Joel Dueck
+51. Beeswax by Joel Dueck
+--
+52. Sauron
 
 ## Featured Papers
 
@@ -101,6 +104,7 @@
 48. Fortifying Macros, Ryan Culpepper
 49. Does blame shifting work? by Lukas Lazarek, Alexis King, Samanvitha Sundar, Robert Findler, and Christos Dimoulas
 50. Chaperones and Impersonators: Run-time Support for Reasonable Interposition, by T. Stephen Strickland, Sam Tobin-Hochstadt, Robert Bruce Findler, and Matthew Flatt
+51. Complete monitors for behavioral contracts, by Christos Dimoulas, Sam Tobin-Hochstadt, Matthias Felleisen
 -- 
 Parallel machine simulator using racket/scheme functional programming language (https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11718/117182N/Parallel-machine-simulator-using-racketscheme-functional-programming-language/10.1117/12.2572096.short?SSO=1)
 
@@ -125,3 +129,4 @@ Parallel machine simulator using racket/scheme functional programming language (
 47. #2883 `xxyzz` - https://github.com/racket/racket/commit/c9956aceaeecb3be747c152c323b7010a371816b
 49. #29 (racket/pict)
 50. #29 (racket/pict)
+51. #1463 (racket/racket)
