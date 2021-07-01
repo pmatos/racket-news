@@ -1,0 +1,32 @@
+(defrelease ibkre "Ray Racine"
+  https://gitlab.com/RayRacine/ibkre.git
+  "is an IBK Actor/Syndicate Library")
+
+(defrelease canvas-list "Jeffrey Massung"
+  https://github.com/massung/racket-canvas-list
+  "is a fast-rendering, single-selection, canvas control allowing custom drawing for a list of items")
+
+(defrelease libquiche "`parnikkapore`"
+  https://github.com/parnikkapore/rkt-libquiche
+  "is a set of random Racket libraries that should be useful to more than one project")
+
+(defrelease mike "Maciej Barć"
+  https://gitlab.com/xgqt/racket-mike
+  "is a micro Make replacement")
+
+(defrelease boincrpc "`parnikkapore`"
+  https://github.com/parnikkapore/rkt-boincrpc
+  "is a thin abstraction layer for using BOINC’s RPC on Racket")
+
+(defrelease gui-easy-lib "Bogdan Popa"
+  https://github.com/Bogdanp/racket-gui-easy
+  "is a a declarative API on top of `racket/gui`")
+
+(defrelease irregex "John Clements"
+  https://github.com/jbclements/irregex
+  "is Alex Shinn's IrRegular Expressions package - includes both a character-based syntax and Olin Shivers' SRE regexp syntax")
+
+(defrelease piecrust "Nadeem Abdul Hamid"
+  https://github.com/nadeemabdulhamid/piecrust
+  "is an automated (RESTful) CRUD API generator for use with the Racket web server")
+  
