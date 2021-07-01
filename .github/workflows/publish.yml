@@ -15,7 +15,7 @@ jobs:
       - run: |
           apt-get update
           apt-get install -y ca-certificates openssl uuid-dev make rsync ssh
-      - uses: Bogdanp/setup-racket@v0.10
+      - uses: Bogdanp/setup-racket@v1.5
         with:
           architecture: 'x64'      # (x64 or x86), ignored on Linux
           distribution: 'minimal'  # or 'minimal'
