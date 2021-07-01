@@ -21,7 +21,7 @@ jobs:
           distribution: 'full'  # or 'minimal'
           variant: 'CS'            # or 'CS' for Racket-on-Chez
           version: '8.0'           # or 'current' for the latest snapshot
-          packages: 'darwin, rosette'
+      - run: raco pkg install --auto --no-docs darwin rosette
       - run: make site
       - run: ./rememberme.sh
       - name: Save ssh keys
