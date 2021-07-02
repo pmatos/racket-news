@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="184.629mm"
+   height="113.7482mm"
+   viewBox="0 0 654.19724 403.0448"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="pillow.svg"
+   inkscape:export-filename="/Users/ben/text4824.png"
+   inkscape:export-xdpi="34.393295"
+   inkscape:export-ydpi="34.393295">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="229.66011"
+     inkscape:cy="107.74551"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1362"
+     inkscape:window-height="723"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-36.260999,-58.673748)">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#3c3c3c;stroke-width:14;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4880"
+       width="601.24786"
+       height="354.04422"
+       x="61.554642"
+       y="82.488281"
+       rx="26.218563"
+       ry="26.218563" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#3c3c3c;stroke-width:14;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4828"
+       cx="90.117828"
+       cy="112.53008"
+       r="46.856335" />
+    <ellipse
+       style="fill:#ffffff;fill-opacity:1;stroke:#3c3c3c;stroke-width:13.88842964;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4898"
+       cx="634.80957"
+       cy="112.96235"
+       rx="46.912285"
+       ry="46.911789" />
+    <ellipse
+       style="fill:#ffffff;fill-opacity:1;stroke:#3c3c3c;stroke-width:13.91576767;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4900"
+       cx="636.60175"
+       cy="407.80106"
+       rx="46.898617"
+       ry="46.898621" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#3c3c3c;stroke-width:13.41553307;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4902"
+       cx="90.1175"
+       cy="407.86206"
+       r="47.148735" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:14;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4884"
+       width="587.89398"
+       height="340.37601"
+       x="68.571419"
+       y="88.933243" />
+    <g
+       id="g4266"
+       transform="matrix(0.4147915,0,0,0.39690832,340.95351,124.89999)">
+      <circle
+         r="253.093"
+         cy="255.98599"
+         cx="256.25201"
+         id="circle"
+         style="fill:#ffffff" />
+      <path
+         d="m 455.398,412.197 c 33.792,-43.021 53.946,-97.262 53.946,-156.211 0,-139.779 -113.313,-253.093 -253.093,-253.093 -30.406,0 -59.558,5.367 -86.566,15.197 102.75,53.899 238.664,229.749 285.713,394.107 z"
+         id="blue-piece"
+         inkscape:connector-curvature="0"
+         style="fill:#3e5ba9" />
+      <path
+         d="M 220.003,164.337 C 180.522,121.804 136.308,88.025 89.48,65.622 36.573,112.011 3.159,180.092 3.159,255.986 3.159,319.8 26.785,378.09 65.756,422.609 100.111,319.392 164.697,219.907 220.003,164.337 Z"
+         id="left-red-piece"
+         inkscape:connector-curvature="0"
+         style="fill:#9f1d20" />
+      <path
+         d="m 266.638,221.727 c -54.792,59.051 -109.392,162.422 -129.152,257.794 35.419,18.857 75.84,29.559 118.766,29.559 44.132,0 85.618,-11.306 121.74,-31.163 -20.821,-96.205 -60.124,-184.313 -111.354,-256.19 z"
+         id="bottom-red-piece"
+         inkscape:connector-curvature="0"
+         style="fill:#9f1d20" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:243.96528625px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#282828;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="161.46188"
+       y="307.89014"
+       id="text4272"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0128757,0.98728797)"><tspan
+         sodipodi:role="line"
+         id="tspan4274"
+         x="161.46188"
+         y="307.89014">#'</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#282828;fill-opacity:1;stroke:none;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="142.16389"
+       y="394.72696"
+       id="text4824"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4826"
+         x="142.16389"
+         y="394.72696">Syntax Bee 2021</tspan></text>
+  </g>
+</svg>
