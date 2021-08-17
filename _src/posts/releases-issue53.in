@@ -1,0 +1,60 @@
+(defrelease sawzall "Hazel Levine"
+  https://github.com/ralsei/sawzall
+  "is a grammar of data manipulation, inspired by dplyr")
+
+(defrelease http123 "Ryan Culpepper"
+  https://github.com/rmculpepper/racket-http123
+  "is a HTTP client with support for HTTP/1.1 and HTTP/2")
+
+(defrelease cli "Siddhartha Kasivajhula"
+  https://github.com/countvajhula/cli
+  "is a language for writing command line interfaces")
+
+(defrelease gemtext "Sebastian René Higgins"
+  https://github.com/bctnry/gemtext-racket
+  "is a text/gemini parser")
+
+(defrelease box-extra "Bogdan Popa"
+  https://github.com/Bogdanp/racket-box-extra
+  "is a library providing extra utilities for working with boxes")
+
+(defrelease try-catch-finally "Alex Knauth"
+  https://github.com/AlexKnauth/try-catch-finally
+  "is a macro for catching exceptions and running teardown operations")
+
+(defrelease try-catch-match "Benedek Szilvasy"
+  https://github.com/eutro/try-catch-match
+  "is a try-catch-finally macro that binds with match")
+
+(defrelease dirname "Maciej Barć"
+  https://gitlab.com/xgqt/racket-dirname
+  "is a library providing directory name utility functions")
+
+(defrelease gui-easy "Bogdan Popa"
+  https://github.com/Bogdanp/racket-gui-easy
+  "is a declarative API on top of `racket/gui`")
+
+(defrelease noise "JP Verkamp"
+  https://github.com/jpverkamp/noise
+  "is a Perlin and simple noise generators")
+
+(defrelease tabular-asa "Jeffrey Massung"
+  https://github.com/massung/tabular-asa
+  "is a fast, efficient, and immutable dataframes implementation")
+
+(defrelease jsond "D. Ben Knoble"
+  https://github.com/benknoble/jsond
+  "is a racket language for embedding JSON data")
+
+(defrelease rince "Leo Uino"
+  https://github.com/lwhjp/rince
+  "is an (in-progress) implementation of C semantics")
+
+(defrelease fexpress "Ross Angle"
+  https://github.com/rocketnia/fexpress
+  "is a compilation-friendly fexpr language")
+
+(defrelease k "Lîm Tsú-thuàn≡悃悃"
+  https://github.com/racket-tw/k
+  "is a theorem prover based on Racket ecosystem")
+
