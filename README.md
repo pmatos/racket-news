@@ -55,6 +55,7 @@
 51. Beeswax by Joel Dueck
 52. Sauron by Lîm Tsú-thuàn
 53. RSound by John Clements
+54. congame by Marc Kaufmann and Bogdan Popa
 
 ## Featured Papers
 
@@ -107,8 +108,8 @@
 51. Complete monitors for behavioral contracts, by Christos Dimoulas, Sam Tobin-Hochstadt, Matthias Felleisen
 52. Is sound gradual typing dead?, by Asumu Takikawa, Daniel Feltey, Ben Greenman, Max S. New, Jan Vitek, and Matthias Felleisen
 53. How to Evaluate Blame for Gradual Types, by Lukas Lazarek, Ben Greenman, Matthias Felleisen, and Christos Dimoulas
--- 
 54. How to Design Co-Programs (http://www.cs.ox.ac.uk/jeremy.gibbons/publications/copro.pdf)
+-- 
 55. Prototypes: Object-Orientation, Functionally http://fare.tunes.org/files/cs/poof.pdf
 Parallel machine simulator using racket/scheme functional programming language (https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11718/117182N/Parallel-machine-simulator-using-racketscheme-functional-programming-language/10.1117/12.2572096.short?SSO=1)
 
