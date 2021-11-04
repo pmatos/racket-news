@@ -1,51 +1,51 @@
 (defrelease in-out-logged "David Storrs"
   https://github.com/dstorrs/in-out-logged
-  "is a library providing a code wrapping logger.")
+  "is a library providing a code wrapping logger")
 
 (defrelease libansilove "Maciej Barć"
   https://gitlab.com/xgqt/racket-libansilove
-  "is a library providing FFI bindings to libansilove.")
+  "is a library providing FFI bindings to libansilove")
 
 (defrelease laundry "Tom Gillespie"
   https://github.com/tgbugs/laundry/
-  "is an implementation of org mode in Racket.")
+  "is an implementation of org mode in Racket")
 
 (defrelease pprint-compact "`sorawee`"
   https://github.com/sorawee/pprint-compact
-  "is an implementation of 'A Pretty But Not Greedy Printer' in Racket.")
+  "is an implementation of 'A Pretty But Not Greedy Printer' in Racket")
 
 (defrelease codepoint "Simon Johnston"
   https://github.com/johnstonskj/racket-codepoint
-  "is an library for operations on unicode codepoints and UCD properties.")
+  "is an library for operations on unicode codepoints and UCD properties")
 
 (defrelease try-catch "David Storrs"
   https://github.com/dstorrs/try-catch
-  "is a error handling library.")
+  "is a error handling library")
 
 (defrelease dbg "Bodgdan Popa"
   https://github.com/Bogdanp/racket-dbg.git
-  "is a remote debugging client and server implementation.")
+  "is a remote debugging client and server implementation")
 
 (defrelease fmt "`sorawee`"
   https://github.com/sorawee/fmt.git
-  "is an extensible code formatter for Racket.")
+  "is an extensible code formatter for Racket")
 
 (defrelease pareto-frontier "`sorawee`"
   https://github.com/sorawee/pareto-frontier
-  "is a library to efficiently compute the pareto frontier set.")
+  "is a library to efficiently compute the pareto frontier set")
 
 (defrelease ebuild "Maciej Barć"
   https://gitlab.com/xgqt/racket-ebuild
-  "is a library to ease automatic ebuild creation.")
+  "is a library to ease automatic ebuild creation")
 
 (defrelease majordomo2 "David Storrs"
   https://github.com/dstorrs/majordomo2
-  "is a job manager that includes automatic retries with updated state on restart.")
+  "is a job manager that includes automatic retries with updated state on restart")
 
 (defrelease turing "`curiousyogurt`"
   https://github.com/curiousyogurt/turing
-  "is a turing language for racket modelled on Alan Turing's 1936 paper.")
+  "is a turing language for racket modelled on Alan Turing's 1936 paper")
 
 (defrelease social-contract "Siddhartha Kasivajhula"
   https://github.com/countvajhula/social-contract
-  "is a high-level, composable syntax for describing contracts.")
+  "is a high-level, composable syntax for describing contracts")
