@@ -1,0 +1,43 @@
+(defrelease denxi "Sage Gerard"
+  https://github.com/zyrolasting/denxi
+  "is a programming model for distributing data. It reduces the cost of producing package managers, storefronts, operating systems, and CI/CD systems")
+
+(defrelease qi "Siddhartha Kasivajhula"
+  https://github.com/countvajhula/qi
+  "is another way to structure computations")
+
+(defrelease text-date "Roman Klochkov"
+  https://github.com/Kalimehtar/text-date
+  "is a widget for Racket/gui for date enter")
+
+(defrelease ez-csv "Steven Leibrock"
+  https://github.com/sleibrock/ez-csv
+  "is a library for reading and writing CSV files painlessly")
+
+(defrelease expeditor "Matthew Flatt"
+  https://pkgs.racket-lang.org/package/expeditor
+  "is a terminal expression editor")
+
+(defrelease upi-lib "Maciej Barć"
+  https://gitlab.com/xgqt/racket-upi
+  "is a unix tools library")
+
+(defrelease esAsm "`a11ce`"
+  https://github.com/a11ce/esAsm
+  "is a toy assembly-ish language meant to be fun to use")
+
+(defrelease splitflap "Joel Dueck"
+  https://github.com/otherjoel/splitflap
+  "is a RSS / Atom feed generation library")
+
+(defrelease taro "Oleks Litus"
+  https://github.com/orreksu/taro
+  "is a new programming language written in Racket")
+
+(defrelease smtp-server "Bogdan Popa"
+  https://pkgs.racket-lang.org/package/smtp-server
+  "is an implementation of RFC5321 for Racket")
+
+(defrelease raco-static-web "Sam Phillips"
+  https://github.com/samdphillips/raco-static-web
+  "is a little raco command to serve some files on the web")

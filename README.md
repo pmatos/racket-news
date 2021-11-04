@@ -30,7 +30,7 @@
 26. RacketScript by Vishesh Yadav
 27. Cover by Spencer Florence
 28. Racket CAS by Jens Axel Soegaard
-29. Deta by Bodgan Popa
+29. Deta by Bogdan Popa
 30. Heresy by Annaia Danvers
 31. Disposable by Jack Firth
 32. XSmith by William Hatch and Eric Eeide
@@ -56,6 +56,7 @@
 52. Sauron by Lîm Tsú-thuàn
 53. RSound by John Clements
 54. congame by Marc Kaufmann and Bogdan Popa
+55. north by Bogdan Popa
 
 ## Featured Papers
 
@@ -109,9 +110,11 @@
 52. Is sound gradual typing dead?, by Asumu Takikawa, Daniel Feltey, Ben Greenman, Max S. New, Jan Vitek, and Matthias Felleisen
 53. How to Evaluate Blame for Gradual Types, by Lukas Lazarek, Ben Greenman, Matthias Felleisen, and Christos Dimoulas
 54. How to Design Co-Programs (http://www.cs.ox.ac.uk/jeremy.gibbons/publications/copro.pdf)
+55. Prototypes: Object-Orientation, by Functionally http://fare.tunes.org/files/cs/poof.pdf
 -- 
-55. Prototypes: Object-Orientation, Functionally http://fare.tunes.org/files/cs/poof.pdf
 Parallel machine simulator using racket/scheme functional programming language (https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11718/117182N/Parallel-machine-simulator-using-racketscheme-functional-programming-language/10.1117/12.2572096.short?SSO=1)
+56. VERIFYING CORRECTNESS OF A CHEZ SCHEME COMPILER PASS https://digitalcommons.calpoly.edu/cgi/viewcontent.cgi?article=3900&context=theses San Luis Obispo
+57. Runtime and compiler support for HAMTs https://dl.acm.org/doi/abs/10.1145/3486602.3486931
 
 ## Call to Racket Champions
 
