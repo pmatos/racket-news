@@ -57,6 +57,7 @@
 53. RSound by John Clements
 54. congame by Marc Kaufmann and Bogdan Popa
 55. north by Bogdan Popa
+56. Qi by Siddhartha Kasivajhula
 
 ## Featured Papers
 
