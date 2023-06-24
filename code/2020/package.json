@@ -18,7 +18,7 @@
   "homepage": "https://github.com/pmatos/racket-news",
   "dependencies": {
     "@octokit/plugin-throttling": "^2.7.0",
-    "@octokit/rest": "^16.34.1",
+    "@octokit/rest": "^19.0.13",
     "moment": "^2.24.0"
   }
 }
